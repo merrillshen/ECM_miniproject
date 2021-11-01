@@ -1,0 +1,290 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F67K40 ]
+[d frameptr 4065 ]
+"9 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+"23
+[v _ADC_getval ADC_getval `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"8 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+[v _LEDarray_init LEDarray_init `(v  1 e 1 0 ]
+"45
+[v _LEDarray_disp_bin LEDarray_disp_bin `(v  1 e 1 0 ]
+"11 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S45 . 1 `uc 1 ANSELA0 1 0 :1:0 
+`uc 1 ANSELA1 1 0 :1:1 
+`uc 1 ANSELA2 1 0 :1:2 
+`uc 1 ANSELA3 1 0 :1:3 
+`uc 1 ANSELA4 1 0 :1:4 
+`uc 1 ANSELA5 1 0 :1:5 
+`uc 1 ANSELA6 1 0 :1:6 
+`uc 1 ANSELA7 1 0 :1:7 
+]
+"10273 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h
+[u S54 . 1 `S45 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES54  1 e 1 @3730 ]
+[s S488 . 1 `uc 1 ANSELF0 1 0 :1:0 
+`uc 1 ANSELF1 1 0 :1:1 
+`uc 1 ANSELF2 1 0 :1:2 
+`uc 1 ANSELF3 1 0 :1:3 
+`uc 1 ANSELF4 1 0 :1:4 
+`uc 1 ANSELF5 1 0 :1:5 
+`uc 1 ANSELF6 1 0 :1:6 
+`uc 1 ANSELF7 1 0 :1:7 
+]
+"12319
+[u S497 . 1 `S488 1 . 1 0 ]
+[v _ANSELFbits ANSELFbits `VES497  1 e 1 @3764 ]
+[s S66 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADNREF 1 0 :1:4 
+]
+"26236
+[s S70 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+]
+[u S73 . 1 `S66 1 . 1 0 `S70 1 . 1 0 ]
+[v _ADREFbits ADREFbits `VES73  1 e 1 @3928 ]
+"26640
+[v _ADPCH ADPCH `VEuc  1 e 1 @3935 ]
+[s S85 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"26733
+[s S94 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S98 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S100 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S102 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S104 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S107 . 1 `S85 1 . 1 0 `S94 1 . 1 0 `S98 1 . 1 0 `S100 1 . 1 0 `S102 1 . 1 0 `S104 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES107  1 e 1 @3936 ]
+"27017
+[v _ADRESH ADRESH `VEuc  1 e 1 @3940 ]
+[s S314 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"28540
+[s S323 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S332 . 1 `S314 1 . 1 0 `S323 1 . 1 0 ]
+[v _LATAbits LATAbits `VES332  1 e 1 @3961 ]
+[s S427 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"28652
+[s S436 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S445 . 1 `S427 1 . 1 0 `S436 1 . 1 0 ]
+[v _LATBbits LATBbits `VES445  1 e 1 @3962 ]
+[s S366 . 1 `uc 1 LATF0 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"29100
+[s S375 . 1 `uc 1 LF0 1 0 :1:0 
+`uc 1 LF1 1 0 :1:1 
+`uc 1 LF2 1 0 :1:2 
+`uc 1 LF3 1 0 :1:3 
+`uc 1 LF4 1 0 :1:4 
+`uc 1 LF5 1 0 :1:5 
+`uc 1 LF6 1 0 :1:6 
+`uc 1 LF7 1 0 :1:7 
+]
+[u S384 . 1 `S366 1 . 1 0 `S375 1 . 1 0 ]
+[v _LATFbits LATFbits `VES384  1 e 1 @3966 ]
+[s S259 . 1 `uc 1 LATG0 1 0 :1:0 
+`uc 1 LATG1 1 0 :1:1 
+`uc 1 LATG2 1 0 :1:2 
+`uc 1 LATG3 1 0 :1:3 
+`uc 1 LATG4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATG6 1 0 :1:6 
+`uc 1 LATG7 1 0 :1:7 
+]
+"29209
+[s S268 . 1 `uc 1 LG0 1 0 :1:0 
+`uc 1 LG1 1 0 :1:1 
+`uc 1 LG2 1 0 :1:2 
+`uc 1 LG3 1 0 :1:3 
+`uc 1 LG4 1 0 :1:4 
+]
+[u S274 . 1 `S259 1 . 1 0 `S268 1 . 1 0 ]
+[v _LATGbits LATGbits `VES274  1 e 1 @3967 ]
+[s S171 . 1 `uc 1 LATH0 1 0 :1:0 
+`uc 1 LATH1 1 0 :1:1 
+`uc 1 LATH2 1 0 :1:2 
+`uc 1 LATH3 1 0 :1:3 
+]
+"29309
+[s S176 . 1 `uc 1 LH0 1 0 :1:0 
+`uc 1 LH1 1 0 :1:1 
+`uc 1 LH2 1 0 :1:2 
+`uc 1 LH3 1 0 :1:3 
+]
+[s S181 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LH4 1 0 :1:4 
+]
+[s S184 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LH5 1 0 :1:5 
+]
+[s S187 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LH6 1 0 :1:6 
+]
+[s S190 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LH7 1 0 :1:7 
+]
+[u S193 . 1 `S171 1 . 1 0 `S176 1 . 1 0 `S181 1 . 1 0 `S184 1 . 1 0 `S187 1 . 1 0 `S190 1 . 1 0 ]
+[v _LATHbits LATHbits `VES193  1 e 1 @3968 ]
+[s S24 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"29396
+[u S33 . 1 `S24 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES33  1 e 1 @3969 ]
+[s S467 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"29518
+[u S476 . 1 `S467 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES476  1 e 1 @3970 ]
+[s S406 . 1 `uc 1 TRISF0 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"30001
+[u S415 . 1 `S406 1 . 1 0 ]
+[v _TRISFbits TRISFbits `VES415  1 e 1 @3974 ]
+[s S293 . 1 `uc 1 TRISG0 1 0 :1:0 
+`uc 1 TRISG1 1 0 :1:1 
+`uc 1 TRISG2 1 0 :1:2 
+`uc 1 TRISG3 1 0 :1:3 
+`uc 1 TRISG4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 TRISG6 1 0 :1:6 
+`uc 1 TRISG7 1 0 :1:7 
+]
+"30063
+[u S302 . 1 `S293 1 . 1 0 ]
+[v _TRISGbits TRISGbits `VES302  1 e 1 @3975 ]
+[s S223 . 1 `uc 1 TRISH0 1 0 :1:0 
+`uc 1 TRISH1 1 0 :1:1 
+`uc 1 TRISH2 1 0 :1:2 
+`uc 1 TRISH3 1 0 :1:3 
+]
+"30116
+[u S228 . 1 `S223 1 . 1 0 ]
+[v _TRISHbits TRISHbits `VES228  1 e 1 @3976 ]
+"11 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"17
+[v main@light_strength light_strength `ui  1 a 2 6 ]
+"20
+[v main@set_brightness set_brightness `ui  1 a 2 4 ]
+"30
+} 0
+"8 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+[v _LEDarray_init LEDarray_init `(v  1 e 1 0 ]
+{
+"39
+} 0
+"9 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"23
+[v _ADC_getval ADC_getval `(ui  1 e 2 0 ]
+{
+"25
+[v ADC_getval@tmpval tmpval `ui  1 a 2 2 ]
+"38
+} 0
