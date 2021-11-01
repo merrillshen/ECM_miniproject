@@ -20,21 +20,25 @@ void main(void)
     LATDbits.LATD7=0;   //set initial output state
     TRISDbits.TRISD7=0; //set TRIS value for pin (output)
     
-    // Initialise all functions 
+    // Initialise scripts 
     LEDarray_init();
     ADC_init();
     Timer0_init();
     Interrupts_init();
     
+    // Variables for function use 
     unsigned int light_strength=0;
-    unsigned int set_brightness=50; //To set brightness level at which LED comes on 
     unsigned int temp=0;
     unsigned int secs=0; 
-    unsigned int minutes=0;  // To preset current time in mins
-    unsigned int hour=0; // To preset current time in hours (24 hour clock)
+    
+    // Preset Variables Here 
+    unsigned int set_brightness=50; // Set brightness level at which LED comes on 
+    unsigned int minutes=0;  // Preset current time in mins
+    unsigned int hour=0; // Preset current time in hours (24 hour clock)
+    
     while (1) {
         light_strength = ADC_getval();
-        if (light_strength >= set_brightness) { // still bright out
+        if (light_strength >= set_brightness || (1<hour && hour<5 ) ) { // still bright out or between 1-5am
             LATHbits.LATH3 = 0; //toggle off LED
         }
         else {

@@ -24253,15 +24253,19 @@ void main(void)
     Timer0_init();
     Interrupts_init();
 
+
     unsigned int light_strength=0;
-    unsigned int set_brightness=50;
     unsigned int temp=0;
     unsigned int secs=0;
+
+
+    unsigned int set_brightness=50;
     unsigned int minutes=0;
     unsigned int hour=0;
+
     while (1) {
         light_strength = ADC_getval();
-        if (light_strength >= set_brightness) {
+        if (light_strength >= set_brightness || (1<hour && hour<5 ) ) {
             LATHbits.LATH3 = 0;
         }
         else {

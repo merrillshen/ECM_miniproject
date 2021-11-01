@@ -423,19 +423,19 @@
 "13 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"34
+"37
 [v main@hour hour `ui  1 a 2 17 ]
-"33
+"36
 [v main@minutes minutes `ui  1 a 2 15 ]
 "32
 [v main@secs secs `ui  1 a 2 13 ]
 "31
 [v main@temp temp `ui  1 a 2 11 ]
-"29
-[v main@light_strength light_strength `ui  1 a 2 9 ]
 "30
+[v main@light_strength light_strength `ui  1 a 2 9 ]
+"35
 [v main@set_brightness set_brightness `ui  1 a 2 7 ]
-"61
+"65
 } 0
 "7 C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
 [v _Timer0_init Timer0_init `(v  1 e 1 0 ]
