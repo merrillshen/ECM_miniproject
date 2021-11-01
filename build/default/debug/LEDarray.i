@@ -1,4 +1,4 @@
-# 1 "main.c"
+# 1 "LEDarray.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,12 +6,7 @@
 # 1 "<built-in>" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "main.c" 2
-#pragma config FEXTOSC = HS
-#pragma config RSTOSC = EXTOSC_4PLL
-#pragma config WDTE = OFF
-
-
+# 1 "LEDarray.c" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -24180,7 +24175,7 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 33 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\xc.h" 2 3
-# 5 "main.c" 2
+# 1 "LEDarray.c" 2
 
 # 1 "./LEDarray.h" 1
 
@@ -24196,93 +24191,123 @@ void buttonpress_init(void);
 void LEDarray_disp_bin(unsigned int number);
 void LEDarray_disp_dec(unsigned int number);
 void LEDarray_disp_PPM(unsigned int number, unsigned int max);
-# 6 "main.c" 2
-
-# 1 "./ADC.h" 1
+# 2 "LEDarray.c" 2
 
 
 
 
 
 
-
-void ADC_init(void);
-unsigned int ADC_getval(void);
-# 7 "main.c" 2
-
-# 1 "./timers.h" 1
-
-
-
-
-
-
-
-void Timer0_init(void);
-unsigned int get16bitTMR0val(void);
-# 8 "main.c" 2
-
-# 1 "./interrupts.h" 1
-
-
-
-
-
-
-
-void Interrupts_init(void);
-void __attribute__((picinterrupt(("high_priority")))) HighISR();
-# 9 "main.c" 2
-
-
-
-
-void main(void)
+void LEDarray_init(void)
 {
 
-    LATHbits.LATH3=0;
-    TRISHbits.TRISH3=0;
 
 
-    LATDbits.LATD7=0;
-    TRISDbits.TRISD7=0;
+    LATGbits.LATG0=0;
+    TRISGbits.TRISG0=0;
+
+    LATGbits.LATG1=0;
+    TRISGbits.TRISG1=0;
+
+    LATAbits.LATA2=0;
+    TRISAbits.TRISA2=0;
+
+    LATFbits.LATF6=0;
+    TRISFbits.TRISF6=0;
+
+    LATAbits.LATA4=0;
+    TRISAbits.TRISA4=0;
+
+    LATAbits.LATA5=0;
+    TRISAbits.TRISA5=0;
+
+    LATFbits.LATF0=0;
+    TRISFbits.TRISF0=0;
+
+    LATBbits.LATB0=0;
+    TRISBbits.TRISB0=0;
+
+    LATBbits.LATB1=0;
+    TRISBbits.TRISB1=0;
+}
 
 
-    LEDarray_init();
-    ADC_init();
-    Timer0_init();
-    Interrupts_init();
 
-    unsigned int light_strength=0;
-    unsigned int set_brightness=50;
-    unsigned int temp=0;
-    unsigned int secs=0;
-    unsigned int minutes=0;
-    unsigned int hour=0;
-    while (1) {
-        light_strength = ADC_getval();
-        if (light_strength >= set_brightness) {
-            LATHbits.LATH3 = 0;
-        }
-        else {
-            LATHbits.LATH3 = 1;
-        }
 
-        if (LATDbits.LATD7 != temp) {
-            secs += 1;
-            temp = LATDbits.LATD7;
-        }
-        if (secs == 60) {
-            minutes += 1;
-            secs = 0;
-        }
-        if (minutes == 60) {
-            hour += 1;
-            minutes = 0;
-        }
-        if (hour == 24) {
-            hour = 0;
-        }
-        LEDarray_disp_bin(hour);
+
+void LEDarray_disp_bin(unsigned int number)
+{
+
+
+
+    if (number & 0b000000001) { LATGbits.LATG0=1;} else { LATGbits.LATG0=0;}
+    if (number & 0b000000010) { LATGbits.LATG1=1;} else { LATGbits.LATG1=0;}
+    if (number & 0b000000100) { LATAbits.LATA2=1;} else { LATAbits.LATA2=0;}
+    if (number & 0b000001000) { LATFbits.LATF6=1;} else { LATFbits.LATF6=0;}
+    if (number & 0b000010000) { LATAbits.LATA4=1;} else { LATAbits.LATA4=0;}
+    if (number & 0b000100000) { LATAbits.LATA5=1;} else { LATAbits.LATA5=0;}
+    if (number & 0b001000000) { LATFbits.LATF0=1;} else { LATFbits.LATF0=0;}
+    if (number & 0b010000000) { LATBbits.LATB0=1;} else { LATBbits.LATB0=0;}
+    if (number & 0b100000000) { LATBbits.LATB1=1;} else { LATBbits.LATB1=0;}
+}
+
+void buttonpress_init(void)
+{
+
+    TRISFbits.TRISF2=1;
+    ANSELFbits.ANSELF2=0;
+}
+
+
+
+
+
+
+void LEDarray_disp_dec(unsigned int number)
+{
+ unsigned int disp_val;
+ disp_val = 0;
+
+
+    if (number > 20) { disp_val += 1;}
+    if (number > 25) { disp_val += 2;}
+    if (number > 29) { disp_val += 4;}
+    if (number > 39) { disp_val += 8;}
+    if (number > 49) { disp_val += 16;}
+    if (number > 59) { disp_val += 32;}
+    if (number > 69) { disp_val += 64;}
+    if (number > 79) { disp_val += 128;}
+    if (number > 89) { disp_val += 256;}
+ LEDarray_disp_bin(disp_val);
+}
+# 98 "LEDarray.c"
+void LEDarray_disp_PPM(unsigned int cur_val, unsigned int max)
+{
+ unsigned int disp_val;
+    disp_val = 0;
+    if (cur_val > 29) { disp_val += 1;}
+    if (cur_val > 39) { disp_val += 2;}
+    if (cur_val > 49) { disp_val += 4;}
+    if (cur_val > 59) { disp_val += 8;}
+    if (cur_val > 69) { disp_val += 16;}
+    if (cur_val > 79) { disp_val += 32;}
+    if (cur_val > 89) { disp_val += 64;}
+    if (cur_val > 99) { disp_val += 128;}
+    if (cur_val > 109) { disp_val += 256;}
+
+ if (cur_val >= max) { LEDarray_disp_bin(disp_val);}
+    else {
+        if (29 >= max && max > 1) { disp_val += 1;}
+        if (39 >= max && max > 29) { disp_val += 2;}
+        if (49 >= max && max > 39) { disp_val += 4;}
+        if (59 >= max && max > 49) { disp_val += 8;}
+        if (69 >= max && max > 59) { disp_val += 16;}
+        if (79 >= max && max > 69) { disp_val += 32;}
+        if (89 >= max && max > 79) { disp_val += 64;}
+        if (99 >= max && max > 89) { disp_val += 128;}
+        if (119 >= max &&max > 99) { disp_val += 256;}
+        LEDarray_disp_bin(disp_val);
     }
+
+
 }

@@ -1,97 +1,119 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[p mainexit ]
-"29280 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29280:     struct {
-[s S1364 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1364 . LATH0 LATH1 LATH2 LATH3 ]
-"29286
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29286:     struct {
-[s S1365 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1365 . LH0 LH1 LH2 LH3 ]
-"29292
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29292:     struct {
-[s S1366 :4 `uc 1 :1 `uc 1 ]
-[n S1366 . . LH4 ]
-"29296
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29296:     struct {
-[s S1367 :5 `uc 1 :1 `uc 1 ]
-[n S1367 . . LH5 ]
-"29300
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29300:     struct {
-[s S1368 :6 `uc 1 :1 `uc 1 ]
-[n S1368 . . LH6 ]
-"29304
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29304:     struct {
-[s S1369 :7 `uc 1 :1 `uc 1 ]
-[n S1369 . . LH7 ]
-"29279
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29279: typedef union {
-[u S1363 `S1364 1 `S1365 1 `S1366 1 `S1367 1 `S1368 1 `S1369 1 ]
-[n S1363 . . . . . . . ]
-"29309
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29309: extern volatile LATHbits_t LATHbits __attribute__((address(0xF80)));
-[v _LATHbits `VS1363 ~T0 @X0 0 e@3968 ]
-"30109
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30109:     struct {
-[s S1395 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1395 . TRISH0 TRISH1 TRISH2 TRISH3 ]
-"30108
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30108: typedef union {
-[u S1394 `S1395 1 ]
-[n S1394 . . ]
-"30116
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30116: extern volatile TRISHbits_t TRISHbits __attribute__((address(0xF88)));
-[v _TRISHbits `VS1394 ~T0 @X0 0 e@3976 ]
-"28855
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28855:     struct {
-[s S1352 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1352 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
-"28865
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28865:     struct {
-[s S1353 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1353 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
-"28854
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28854: typedef union {
-[u S1351 `S1352 1 `S1353 1 ]
-[n S1351 . . . ]
-"28876
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28876: extern volatile LATDbits_t LATDbits __attribute__((address(0xF7C)));
-[v _LATDbits `VS1351 ~T0 @X0 0 e@3964 ]
-"29751
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29751:     struct {
-[s S1383 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1383 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
-"29750
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29750: typedef union {
-[u S1382 `S1383 1 ]
-[n S1382 . . ]
-"29762
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29762: extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF84)));
-[v _TRISDbits `VS1382 ~T0 @X0 0 e@3972 ]
-"9 ./LEDarray.h
-[; ;./LEDarray.h: 9: void LEDarray_init(void);
-[v _LEDarray_init `(v ~T0 @X0 0 ef ]
-"8 ./ADC.h
-[; ;./ADC.h: 8: void ADC_init(void);
-[v _ADC_init `(v ~T0 @X0 0 ef ]
-"8 ./timers.h
-[; ;./timers.h: 8: void Timer0_init(void);
-[v _Timer0_init `(v ~T0 @X0 0 ef ]
-"8 ./interrupts.h
-[; ;./interrupts.h: 8: void Interrupts_init(void);
-[v _Interrupts_init `(v ~T0 @X0 0 ef ]
-"9 ./ADC.h
-[; ;./ADC.h: 9: unsigned int ADC_getval(void);
-[v _ADC_getval `(ui ~T0 @X0 0 ef ]
-"11 ./LEDarray.h
-[; ;./LEDarray.h: 11: void LEDarray_disp_bin(unsigned int number);
-[v _LEDarray_disp_bin `(v ~T0 @X0 0 ef1`ui ]
-"1 main.c
-[p x FEXTOSC  =  HS      ]
-"2
-[p x RSTOSC  =  EXTOSC_4PLL ]
-"3
-[p x WDTE  =  OFF         ]
+"29191 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29191:     struct {
+[s S1361 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1361 . LATG0 LATG1 LATG2 LATG3 LATG4 . LATG6 LATG7 ]
+"29201
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29201:     struct {
+[s S1362 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1362 . LG0 LG1 LG2 LG3 LG4 ]
+"29190
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29190: typedef union {
+[u S1360 `S1361 1 `S1362 1 ]
+[n S1360 . . . ]
+"29209
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29209: extern volatile LATGbits_t LATGbits __attribute__((address(0xF7F)));
+[v _LATGbits `VS1360 ~T0 @X0 0 e@3967 ]
+"30052
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30052:     struct {
+[s S1393 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1393 . TRISG0 TRISG1 TRISG2 TRISG3 TRISG4 . TRISG6 TRISG7 ]
+"30051
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30051: typedef union {
+[u S1392 `S1393 1 ]
+[n S1392 . . ]
+"30063
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30063: extern volatile TRISGbits_t TRISGbits __attribute__((address(0xF87)));
+[v _TRISGbits `VS1392 ~T0 @X0 0 e@3975 ]
+"28519
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28519:     struct {
+[s S1343 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1343 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 LATA6 LATA7 ]
+"28529
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28529:     struct {
+[s S1344 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1344 . LA0 LA1 LA2 LA3 LA4 LA5 LA6 LA7 ]
+"28518
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28518: typedef union {
+[u S1342 `S1343 1 `S1344 1 ]
+[n S1342 . . . ]
+"28540
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28540: extern volatile LATAbits_t LATAbits __attribute__((address(0xF79)));
+[v _LATAbits `VS1342 ~T0 @X0 0 e@3961 ]
+"29385
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29385:     struct {
+[s S1371 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1371 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"29384
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29384: typedef union {
+[u S1370 `S1371 1 ]
+[n S1370 . . ]
+"29396
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29396: extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF81)));
+[v _TRISAbits `VS1370 ~T0 @X0 0 e@3969 ]
+"29079
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29079:     struct {
+[s S1358 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1358 . LATF0 LATF1 LATF2 LATF3 LATF4 LATF5 LATF6 LATF7 ]
+"29089
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29089:     struct {
+[s S1359 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1359 . LF0 LF1 LF2 LF3 LF4 LF5 LF6 LF7 ]
+"29078
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29078: typedef union {
+[u S1357 `S1358 1 `S1359 1 ]
+[n S1357 . . . ]
+"29100
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29100: extern volatile LATFbits_t LATFbits __attribute__((address(0xF7E)));
+[v _LATFbits `VS1357 ~T0 @X0 0 e@3966 ]
+"29990
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29990:     struct {
+[s S1391 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1391 . TRISF0 TRISF1 TRISF2 TRISF3 TRISF4 TRISF5 TRISF6 TRISF7 ]
+"29989
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29989: typedef union {
+[u S1390 `S1391 1 ]
+[n S1390 . . ]
+"30001
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 30001: extern volatile TRISFbits_t TRISFbits __attribute__((address(0xF86)));
+[v _TRISFbits `VS1390 ~T0 @X0 0 e@3974 ]
+"28631
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28631:     struct {
+[s S1346 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1346 . LATB0 LATB1 LATB2 LATB3 LATB4 LATB5 LATB6 LATB7 ]
+"28641
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28641:     struct {
+[s S1347 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1347 . LB0 LB1 LB2 LB3 LB4 LB5 LB6 LB7 ]
+"28630
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28630: typedef union {
+[u S1345 `S1346 1 `S1347 1 ]
+[n S1345 . . . ]
+"28652
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 28652: extern volatile LATBbits_t LATBbits __attribute__((address(0xF7A)));
+[v _LATBbits `VS1345 ~T0 @X0 0 e@3962 ]
+"29507
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29507:     struct {
+[s S1375 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1375 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"29506
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29506: typedef union {
+[u S1374 `S1375 1 ]
+[n S1374 . . ]
+"29518
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 29518: extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF82)));
+[v _TRISBbits `VS1374 ~T0 @X0 0 e@3970 ]
+"12308
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 12308:     struct {
+[s S568 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S568 . ANSELF0 ANSELF1 ANSELF2 ANSELF3 ANSELF4 ANSELF5 ANSELF6 ANSELF7 ]
+"12307
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 12307: typedef union {
+[u S567 `S568 1 ]
+[n S567 . . ]
+"12319
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 12319: extern volatile ANSELFbits_t ANSELFbits __attribute__((address(0xEB4)));
+[v _ANSELFbits `VS567 ~T0 @X0 0 e@3764 ]
 "54 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h
 [; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 54: __asm("PPSLOCK equ 0DEFh");
 [; <" PPSLOCK equ 0DEFh ;# ">
@@ -2066,155 +2088,469 @@ Version 4.0 HI-TECH Software Intermediate Code
 "40981
 [; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h: 40981: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-[v $root$_main `(v ~T0 @X0 0 e ]
-"13 main.c
-[; ;main.c: 13: void main(void)
-[v _main `(v ~T0 @X0 1 ef ]
-"14
-[; ;main.c: 14: {
+"8 LEDarray.c
+[; ;LEDarray.c: 8: void LEDarray_init(void)
+[v _LEDarray_init `(v ~T0 @X0 1 ef ]
+"9
+[; ;LEDarray.c: 9: {
 {
-[e :U _main ]
+[e :U _LEDarray_init ]
 [f ]
+"13
+[; ;LEDarray.c: 13:     LATGbits.LATG0=0;
+[e = . . _LATGbits 0 0 -> -> 0 `i `uc ]
+"14
+[; ;LEDarray.c: 14:     TRISGbits.TRISG0=0;
+[e = . . _TRISGbits 0 0 -> -> 0 `i `uc ]
 "16
-[; ;main.c: 16:     LATHbits.LATH3=0;
-[e = . . _LATHbits 0 3 -> -> 0 `i `uc ]
+[; ;LEDarray.c: 16:     LATGbits.LATG1=0;
+[e = . . _LATGbits 0 1 -> -> 0 `i `uc ]
 "17
-[; ;main.c: 17:     TRISHbits.TRISH3=0;
-[e = . . _TRISHbits 0 3 -> -> 0 `i `uc ]
+[; ;LEDarray.c: 17:     TRISGbits.TRISG1=0;
+[e = . . _TRISGbits 0 1 -> -> 0 `i `uc ]
+"19
+[; ;LEDarray.c: 19:     LATAbits.LATA2=0;
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
 "20
-[; ;main.c: 20:     LATDbits.LATD7=0;
-[e = . . _LATDbits 0 7 -> -> 0 `i `uc ]
-"21
-[; ;main.c: 21:     TRISDbits.TRISD7=0;
-[e = . . _TRISDbits 0 7 -> -> 0 `i `uc ]
-"24
-[; ;main.c: 24:     LEDarray_init();
-[e ( _LEDarray_init ..  ]
+[; ;LEDarray.c: 20:     TRISAbits.TRISA2=0;
+[e = . . _TRISAbits 0 2 -> -> 0 `i `uc ]
+"22
+[; ;LEDarray.c: 22:     LATFbits.LATF6=0;
+[e = . . _LATFbits 0 6 -> -> 0 `i `uc ]
+"23
+[; ;LEDarray.c: 23:     TRISFbits.TRISF6=0;
+[e = . . _TRISFbits 0 6 -> -> 0 `i `uc ]
 "25
-[; ;main.c: 25:     ADC_init();
-[e ( _ADC_init ..  ]
+[; ;LEDarray.c: 25:     LATAbits.LATA4=0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
 "26
-[; ;main.c: 26:     Timer0_init();
-[e ( _Timer0_init ..  ]
-"27
-[; ;main.c: 27:     Interrupts_init();
-[e ( _Interrupts_init ..  ]
+[; ;LEDarray.c: 26:     TRISAbits.TRISA4=0;
+[e = . . _TRISAbits 0 4 -> -> 0 `i `uc ]
+"28
+[; ;LEDarray.c: 28:     LATAbits.LATA5=0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
 "29
-[; ;main.c: 29:     unsigned int light_strength=0;
-[v _light_strength `ui ~T0 @X0 1 a ]
-[e = _light_strength -> -> 0 `i `ui ]
-"30
-[; ;main.c: 30:     unsigned int set_brightness=50;
-[v _set_brightness `ui ~T0 @X0 1 a ]
-[e = _set_brightness -> -> 50 `i `ui ]
+[; ;LEDarray.c: 29:     TRISAbits.TRISA5=0;
+[e = . . _TRISAbits 0 5 -> -> 0 `i `uc ]
 "31
-[; ;main.c: 31:     unsigned int temp=0;
-[v _temp `ui ~T0 @X0 1 a ]
-[e = _temp -> -> 0 `i `ui ]
+[; ;LEDarray.c: 31:     LATFbits.LATF0=0;
+[e = . . _LATFbits 0 0 -> -> 0 `i `uc ]
 "32
-[; ;main.c: 32:     unsigned int secs=0;
-[v _secs `ui ~T0 @X0 1 a ]
-[e = _secs -> -> 0 `i `ui ]
-"33
-[; ;main.c: 33:     unsigned int minutes=0;
-[v _minutes `ui ~T0 @X0 1 a ]
-[e = _minutes -> -> 0 `i `ui ]
+[; ;LEDarray.c: 32:     TRISFbits.TRISF0=0;
+[e = . . _TRISFbits 0 0 -> -> 0 `i `uc ]
 "34
-[; ;main.c: 34:     unsigned int hour=0;
-[v _hour `ui ~T0 @X0 1 a ]
-[e = _hour -> -> 0 `i `ui ]
+[; ;LEDarray.c: 34:     LATBbits.LATB0=0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
 "35
-[; ;main.c: 35:     while (1) {
+[; ;LEDarray.c: 35:     TRISBbits.TRISB0=0;
+[e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
+"37
+[; ;LEDarray.c: 37:     LATBbits.LATB1=0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"38
+[; ;LEDarray.c: 38:     TRISBbits.TRISB1=0;
+[e = . . _TRISBbits 0 1 -> -> 0 `i `uc ]
+"39
+[; ;LEDarray.c: 39: }
+[e :UE 2019 ]
+}
+"45
+[; ;LEDarray.c: 45: void LEDarray_disp_bin(unsigned int number)
+[v _LEDarray_disp_bin `(v ~T0 @X0 1 ef1`ui ]
+"46
+[; ;LEDarray.c: 46: {
+{
+[e :U _LEDarray_disp_bin ]
+"45
+[; ;LEDarray.c: 45: void LEDarray_disp_bin(unsigned int number)
+[v _number `ui ~T0 @X0 1 r1 ]
+"46
+[; ;LEDarray.c: 46: {
+[f ]
+"50
+[; ;LEDarray.c: 50:     if (number & 0b000000001) { LATGbits.LATG0=1;} else { LATGbits.LATG0=0;}
+[e $ ! != & _number -> -> 1 `i `ui -> -> 0 `i `ui 2021  ]
+{
+[e = . . _LATGbits 0 0 -> -> 1 `i `uc ]
+}
+[e $U 2022  ]
 [e :U 2021 ]
 {
-"36
-[; ;main.c: 36:         light_strength = ADC_getval();
-[e = _light_strength ( _ADC_getval ..  ]
-"37
-[; ;main.c: 37:         if (light_strength >= set_brightness) {
-[e $ ! >= _light_strength _set_brightness 2023  ]
+[e = . . _LATGbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 2022 ]
+"51
+[; ;LEDarray.c: 51:     if (number & 0b000000010) { LATGbits.LATG1=1;} else { LATGbits.LATG1=0;}
+[e $ ! != & _number -> -> 2 `i `ui -> -> 0 `i `ui 2023  ]
 {
-"38
-[; ;main.c: 38:             LATHbits.LATH3 = 0;
-[e = . . _LATHbits 0 3 -> -> 0 `i `uc ]
-"39
-[; ;main.c: 39:         }
+[e = . . _LATGbits 0 1 -> -> 1 `i `uc ]
 }
 [e $U 2024  ]
-"40
-[; ;main.c: 40:         else {
 [e :U 2023 ]
 {
-"41
-[; ;main.c: 41:             LATHbits.LATH3 = 1;
-[e = . . _LATHbits 0 3 -> -> 1 `i `uc ]
-"42
-[; ;main.c: 42:         }
+[e = . . _LATGbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2024 ]
-"44
-[; ;main.c: 44:         if (LATDbits.LATD7 != temp) {
-[e $ ! != -> . . _LATDbits 0 7 `ui _temp 2025  ]
+"52
+[; ;LEDarray.c: 52:     if (number & 0b000000100) { LATAbits.LATA2=1;} else { LATAbits.LATA2=0;}
+[e $ ! != & _number -> -> 4 `i `ui -> -> 0 `i `ui 2025  ]
 {
-"45
-[; ;main.c: 45:             secs += 1;
-[e =+ _secs -> -> 1 `i `ui ]
-"46
-[; ;main.c: 46:             temp = LATDbits.LATD7;
-[e = _temp -> . . _LATDbits 0 7 `ui ]
-"47
-[; ;main.c: 47:         }
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
 }
+[e $U 2026  ]
 [e :U 2025 ]
-"48
-[; ;main.c: 48:         if (secs == 60) {
-[e $ ! == _secs -> -> 60 `i `ui 2026  ]
 {
-"49
-[; ;main.c: 49:             minutes += 1;
-[e =+ _minutes -> -> 1 `i `ui ]
-"50
-[; ;main.c: 50:             secs = 0;
-[e = _secs -> -> 0 `i `ui ]
-"51
-[; ;main.c: 51:         }
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2026 ]
-"52
-[; ;main.c: 52:         if (minutes == 60) {
-[e $ ! == _minutes -> -> 60 `i `ui 2027  ]
-{
 "53
-[; ;main.c: 53:             hour += 1;
-[e =+ _hour -> -> 1 `i `ui ]
-"54
-[; ;main.c: 54:             minutes = 0;
-[e = _minutes -> -> 0 `i `ui ]
-"55
-[; ;main.c: 55:         }
-}
-[e :U 2027 ]
-"56
-[; ;main.c: 56:         if (hour == 24) {
-[e $ ! == _hour -> -> 24 `i `ui 2028  ]
+[; ;LEDarray.c: 53:     if (number & 0b000001000) { LATFbits.LATF6=1;} else { LATFbits.LATF6=0;}
+[e $ ! != & _number -> -> 8 `i `ui -> -> 0 `i `ui 2027  ]
 {
-"57
-[; ;main.c: 57:             hour = 0;
-[e = _hour -> -> 0 `i `ui ]
-"58
-[; ;main.c: 58:         }
+[e = . . _LATFbits 0 6 -> -> 1 `i `uc ]
+}
+[e $U 2028  ]
+[e :U 2027 ]
+{
+[e = . . _LATFbits 0 6 -> -> 0 `i `uc ]
 }
 [e :U 2028 ]
-"59
-[; ;main.c: 59:         LEDarray_disp_bin(hour);
-[e ( _LEDarray_disp_bin (1 _hour ]
-"60
-[; ;main.c: 60:     }
+"54
+[; ;LEDarray.c: 54:     if (number & 0b000010000) { LATAbits.LATA4=1;} else { LATAbits.LATA4=0;}
+[e $ ! != & _number -> -> 16 `i `ui -> -> 0 `i `ui 2029  ]
+{
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2020 ]
-[e $U 2021  ]
-[e :U 2022 ]
+[e $U 2030  ]
+[e :U 2029 ]
+{
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2030 ]
+"55
+[; ;LEDarray.c: 55:     if (number & 0b000100000) { LATAbits.LATA5=1;} else { LATAbits.LATA5=0;}
+[e $ ! != & _number -> -> 32 `i `ui -> -> 0 `i `ui 2031  ]
+{
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+}
+[e $U 2032  ]
+[e :U 2031 ]
+{
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 2032 ]
+"56
+[; ;LEDarray.c: 56:     if (number & 0b001000000) { LATFbits.LATF0=1;} else { LATFbits.LATF0=0;}
+[e $ ! != & _number -> -> 64 `i `ui -> -> 0 `i `ui 2033  ]
+{
+[e = . . _LATFbits 0 0 -> -> 1 `i `uc ]
+}
+[e $U 2034  ]
+[e :U 2033 ]
+{
+[e = . . _LATFbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 2034 ]
+"57
+[; ;LEDarray.c: 57:     if (number & 0b010000000) { LATBbits.LATB0=1;} else { LATBbits.LATB0=0;}
+[e $ ! != & _number -> -> 128 `i `ui -> -> 0 `i `ui 2035  ]
+{
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+}
+[e $U 2036  ]
+[e :U 2035 ]
+{
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 2036 ]
+"58
+[; ;LEDarray.c: 58:     if (number & 0b100000000) { LATBbits.LATB1=1;} else { LATBbits.LATB1=0;}
+[e $ ! != & _number -> -> 256 `i `ui -> -> 0 `i `ui 2037  ]
+{
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+}
+[e $U 2038  ]
+[e :U 2037 ]
+{
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2038 ]
+"59
+[; ;LEDarray.c: 59: }
+[e :UE 2020 ]
+}
 "61
-[; ;main.c: 61: }
-[e :UE 2019 ]
+[; ;LEDarray.c: 61: void buttonpress_init(void)
+[v _buttonpress_init `(v ~T0 @X0 1 ef ]
+"62
+[; ;LEDarray.c: 62: {
+{
+[e :U _buttonpress_init ]
+[f ]
+"64
+[; ;LEDarray.c: 64:     TRISFbits.TRISF2=1;
+[e = . . _TRISFbits 0 2 -> -> 1 `i `uc ]
+"65
+[; ;LEDarray.c: 65:     ANSELFbits.ANSELF2=0;
+[e = . . _ANSELFbits 0 2 -> -> 0 `i `uc ]
+"66
+[; ;LEDarray.c: 66: }
+[e :UE 2039 ]
+}
+"73
+[; ;LEDarray.c: 73: void LEDarray_disp_dec(unsigned int number)
+[v _LEDarray_disp_dec `(v ~T0 @X0 1 ef1`ui ]
+"74
+[; ;LEDarray.c: 74: {
+{
+[e :U _LEDarray_disp_dec ]
+"73
+[; ;LEDarray.c: 73: void LEDarray_disp_dec(unsigned int number)
+[v _number `ui ~T0 @X0 1 r1 ]
+"74
+[; ;LEDarray.c: 74: {
+[f ]
+"75
+[; ;LEDarray.c: 75:  unsigned int disp_val;
+[v _disp_val `ui ~T0 @X0 1 a ]
+"76
+[; ;LEDarray.c: 76:  disp_val = 0;
+[e = _disp_val -> -> 0 `i `ui ]
+"79
+[; ;LEDarray.c: 79:     if (number > 20) { disp_val += 1;}
+[e $ ! > _number -> -> 20 `i `ui 2041  ]
+{
+[e =+ _disp_val -> -> 1 `i `ui ]
+}
+[e :U 2041 ]
+"80
+[; ;LEDarray.c: 80:     if (number > 25) { disp_val += 2;}
+[e $ ! > _number -> -> 25 `i `ui 2042  ]
+{
+[e =+ _disp_val -> -> 2 `i `ui ]
+}
+[e :U 2042 ]
+"81
+[; ;LEDarray.c: 81:     if (number > 29) { disp_val += 4;}
+[e $ ! > _number -> -> 29 `i `ui 2043  ]
+{
+[e =+ _disp_val -> -> 4 `i `ui ]
+}
+[e :U 2043 ]
+"82
+[; ;LEDarray.c: 82:     if (number > 39) { disp_val += 8;}
+[e $ ! > _number -> -> 39 `i `ui 2044  ]
+{
+[e =+ _disp_val -> -> 8 `i `ui ]
+}
+[e :U 2044 ]
+"83
+[; ;LEDarray.c: 83:     if (number > 49) { disp_val += 16;}
+[e $ ! > _number -> -> 49 `i `ui 2045  ]
+{
+[e =+ _disp_val -> -> 16 `i `ui ]
+}
+[e :U 2045 ]
+"84
+[; ;LEDarray.c: 84:     if (number > 59) { disp_val += 32;}
+[e $ ! > _number -> -> 59 `i `ui 2046  ]
+{
+[e =+ _disp_val -> -> 32 `i `ui ]
+}
+[e :U 2046 ]
+"85
+[; ;LEDarray.c: 85:     if (number > 69) { disp_val += 64;}
+[e $ ! > _number -> -> 69 `i `ui 2047  ]
+{
+[e =+ _disp_val -> -> 64 `i `ui ]
+}
+[e :U 2047 ]
+"86
+[; ;LEDarray.c: 86:     if (number > 79) { disp_val += 128;}
+[e $ ! > _number -> -> 79 `i `ui 2048  ]
+{
+[e =+ _disp_val -> -> 128 `i `ui ]
+}
+[e :U 2048 ]
+"87
+[; ;LEDarray.c: 87:     if (number > 89) { disp_val += 256;}
+[e $ ! > _number -> -> 89 `i `ui 2049  ]
+{
+[e =+ _disp_val -> -> 256 `i `ui ]
+}
+[e :U 2049 ]
+"88
+[; ;LEDarray.c: 88:  LEDarray_disp_bin(disp_val);
+[e ( _LEDarray_disp_bin (1 _disp_val ]
+"89
+[; ;LEDarray.c: 89: }
+[e :UE 2040 ]
+}
+"98
+[; ;LEDarray.c: 98: void LEDarray_disp_PPM(unsigned int cur_val, unsigned int max)
+[v _LEDarray_disp_PPM `(v ~T0 @X0 1 ef2`ui`ui ]
+"99
+[; ;LEDarray.c: 99: {
+{
+[e :U _LEDarray_disp_PPM ]
+"98
+[; ;LEDarray.c: 98: void LEDarray_disp_PPM(unsigned int cur_val, unsigned int max)
+[v _cur_val `ui ~T0 @X0 1 r1 ]
+[v _max `ui ~T0 @X0 1 r2 ]
+"99
+[; ;LEDarray.c: 99: {
+[f ]
+"100
+[; ;LEDarray.c: 100:  unsigned int disp_val;
+[v _disp_val `ui ~T0 @X0 1 a ]
+"101
+[; ;LEDarray.c: 101:     disp_val = 0;
+[e = _disp_val -> -> 0 `i `ui ]
+"102
+[; ;LEDarray.c: 102:     if (cur_val > 29) { disp_val += 1;}
+[e $ ! > _cur_val -> -> 29 `i `ui 2051  ]
+{
+[e =+ _disp_val -> -> 1 `i `ui ]
+}
+[e :U 2051 ]
+"103
+[; ;LEDarray.c: 103:     if (cur_val > 39) { disp_val += 2;}
+[e $ ! > _cur_val -> -> 39 `i `ui 2052  ]
+{
+[e =+ _disp_val -> -> 2 `i `ui ]
+}
+[e :U 2052 ]
+"104
+[; ;LEDarray.c: 104:     if (cur_val > 49) { disp_val += 4;}
+[e $ ! > _cur_val -> -> 49 `i `ui 2053  ]
+{
+[e =+ _disp_val -> -> 4 `i `ui ]
+}
+[e :U 2053 ]
+"105
+[; ;LEDarray.c: 105:     if (cur_val > 59) { disp_val += 8;}
+[e $ ! > _cur_val -> -> 59 `i `ui 2054  ]
+{
+[e =+ _disp_val -> -> 8 `i `ui ]
+}
+[e :U 2054 ]
+"106
+[; ;LEDarray.c: 106:     if (cur_val > 69) { disp_val += 16;}
+[e $ ! > _cur_val -> -> 69 `i `ui 2055  ]
+{
+[e =+ _disp_val -> -> 16 `i `ui ]
+}
+[e :U 2055 ]
+"107
+[; ;LEDarray.c: 107:     if (cur_val > 79) { disp_val += 32;}
+[e $ ! > _cur_val -> -> 79 `i `ui 2056  ]
+{
+[e =+ _disp_val -> -> 32 `i `ui ]
+}
+[e :U 2056 ]
+"108
+[; ;LEDarray.c: 108:     if (cur_val > 89) { disp_val += 64;}
+[e $ ! > _cur_val -> -> 89 `i `ui 2057  ]
+{
+[e =+ _disp_val -> -> 64 `i `ui ]
+}
+[e :U 2057 ]
+"109
+[; ;LEDarray.c: 109:     if (cur_val > 99) { disp_val += 128;}
+[e $ ! > _cur_val -> -> 99 `i `ui 2058  ]
+{
+[e =+ _disp_val -> -> 128 `i `ui ]
+}
+[e :U 2058 ]
+"110
+[; ;LEDarray.c: 110:     if (cur_val > 109) { disp_val += 256;}
+[e $ ! > _cur_val -> -> 109 `i `ui 2059  ]
+{
+[e =+ _disp_val -> -> 256 `i `ui ]
+}
+[e :U 2059 ]
+"112
+[; ;LEDarray.c: 112:  if (cur_val >= max) { LEDarray_disp_bin(disp_val);}
+[e $ ! >= _cur_val _max 2060  ]
+{
+[e ( _LEDarray_disp_bin (1 _disp_val ]
+}
+[e $U 2061  ]
+"113
+[; ;LEDarray.c: 113:     else {
+[e :U 2060 ]
+{
+"114
+[; ;LEDarray.c: 114:         if (29 >= max && max > 1) { disp_val += 1;}
+[e $ ! && >= -> -> 29 `i `ui _max > _max -> -> 1 `i `ui 2062  ]
+{
+[e =+ _disp_val -> -> 1 `i `ui ]
+}
+[e :U 2062 ]
+"115
+[; ;LEDarray.c: 115:         if (39 >= max && max > 29) { disp_val += 2;}
+[e $ ! && >= -> -> 39 `i `ui _max > _max -> -> 29 `i `ui 2063  ]
+{
+[e =+ _disp_val -> -> 2 `i `ui ]
+}
+[e :U 2063 ]
+"116
+[; ;LEDarray.c: 116:         if (49 >= max && max > 39) { disp_val += 4;}
+[e $ ! && >= -> -> 49 `i `ui _max > _max -> -> 39 `i `ui 2064  ]
+{
+[e =+ _disp_val -> -> 4 `i `ui ]
+}
+[e :U 2064 ]
+"117
+[; ;LEDarray.c: 117:         if (59 >= max && max > 49) { disp_val += 8;}
+[e $ ! && >= -> -> 59 `i `ui _max > _max -> -> 49 `i `ui 2065  ]
+{
+[e =+ _disp_val -> -> 8 `i `ui ]
+}
+[e :U 2065 ]
+"118
+[; ;LEDarray.c: 118:         if (69 >= max && max > 59) { disp_val += 16;}
+[e $ ! && >= -> -> 69 `i `ui _max > _max -> -> 59 `i `ui 2066  ]
+{
+[e =+ _disp_val -> -> 16 `i `ui ]
+}
+[e :U 2066 ]
+"119
+[; ;LEDarray.c: 119:         if (79 >= max && max > 69) { disp_val += 32;}
+[e $ ! && >= -> -> 79 `i `ui _max > _max -> -> 69 `i `ui 2067  ]
+{
+[e =+ _disp_val -> -> 32 `i `ui ]
+}
+[e :U 2067 ]
+"120
+[; ;LEDarray.c: 120:         if (89 >= max && max > 79) { disp_val += 64;}
+[e $ ! && >= -> -> 89 `i `ui _max > _max -> -> 79 `i `ui 2068  ]
+{
+[e =+ _disp_val -> -> 64 `i `ui ]
+}
+[e :U 2068 ]
+"121
+[; ;LEDarray.c: 121:         if (99 >= max && max > 89) { disp_val += 128;}
+[e $ ! && >= -> -> 99 `i `ui _max > _max -> -> 89 `i `ui 2069  ]
+{
+[e =+ _disp_val -> -> 128 `i `ui ]
+}
+[e :U 2069 ]
+"122
+[; ;LEDarray.c: 122:         if (119 >= max &&max > 99) { disp_val += 256;}
+[e $ ! && >= -> -> 119 `i `ui _max > _max -> -> 99 `i `ui 2070  ]
+{
+[e =+ _disp_val -> -> 256 `i `ui ]
+}
+[e :U 2070 ]
+"123
+[; ;LEDarray.c: 123:         LEDarray_disp_bin(disp_val);
+[e ( _LEDarray_disp_bin (1 _disp_val ]
+"124
+[; ;LEDarray.c: 124:     }
+}
+[e :U 2061 ]
+"127
+[; ;LEDarray.c: 127: }
+[e :UE 2050 ]
 }

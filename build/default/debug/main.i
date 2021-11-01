@@ -24237,12 +24237,13 @@ void __attribute__((picinterrupt(("high_priority")))) HighISR();
 
 
 
+
+
 void main(void)
 {
 
     LATHbits.LATH3=0;
     TRISHbits.TRISH3=0;
-
 
     LATDbits.LATD7=0;
     TRISDbits.TRISD7=0;
@@ -24267,10 +24268,8 @@ void main(void)
         else {
             LATHbits.LATH3 = 1;
         }
-
-        if (LATDbits.LATD7 != temp) {
+        if (PIR0bits.TMR0IF == 1) {
             secs += 1;
-            temp = LATDbits.LATD7;
         }
         if (secs == 60) {
             minutes += 1;

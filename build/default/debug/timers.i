@@ -1,4 +1,4 @@
-# 1 "main.c"
+# 1 "timers.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,12 +6,7 @@
 # 1 "<built-in>" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "main.c" 2
-#pragma config FEXTOSC = HS
-#pragma config RSTOSC = EXTOSC_4PLL
-#pragma config WDTE = OFF
-
-
+# 1 "timers.c" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -24180,35 +24175,7 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 33 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\\pic\\include\\xc.h" 2 3
-# 5 "main.c" 2
-
-# 1 "./LEDarray.h" 1
-
-
-
-
-
-
-
-
-void LEDarray_init(void);
-void buttonpress_init(void);
-void LEDarray_disp_bin(unsigned int number);
-void LEDarray_disp_dec(unsigned int number);
-void LEDarray_disp_PPM(unsigned int number, unsigned int max);
-# 6 "main.c" 2
-
-# 1 "./ADC.h" 1
-
-
-
-
-
-
-
-void ADC_init(void);
-unsigned int ADC_getval(void);
-# 7 "main.c" 2
+# 1 "timers.c" 2
 
 # 1 "./timers.h" 1
 
@@ -24220,69 +24187,35 @@ unsigned int ADC_getval(void);
 
 void Timer0_init(void);
 unsigned int get16bitTMR0val(void);
-# 8 "main.c" 2
-
-# 1 "./interrupts.h" 1
+# 2 "timers.c" 2
 
 
 
 
 
+void Timer0_init(void)
+{
+    T0CON1bits.T0CS=0b010;
+    T0CON1bits.T0ASYNC=1;
+
+    T0CON1bits.T0CKPS=0b1000;
+    T0CON0bits.T016BIT=1;
 
 
-void Interrupts_init(void);
-void __attribute__((picinterrupt(("high_priority")))) HighISR();
-# 9 "main.c" 2
+    TMR0H=62500;
+    TMR0L=0;
+    T0CON0bits.T0EN=1;
+}
 
 
 
 
-void main(void)
+
+unsigned int get16bitTMR0val(void)
 {
 
-    LATHbits.LATH3=0;
-    TRISHbits.TRISH3=0;
-
-
-    LATDbits.LATD7=0;
-    TRISDbits.TRISD7=0;
-
-
-    LEDarray_init();
-    ADC_init();
-    Timer0_init();
-    Interrupts_init();
-
-    unsigned int light_strength=0;
-    unsigned int set_brightness=50;
-    unsigned int temp=0;
-    unsigned int secs=0;
-    unsigned int minutes=0;
-    unsigned int hour=0;
-    while (1) {
-        light_strength = ADC_getval();
-        if (light_strength >= set_brightness) {
-            LATHbits.LATH3 = 0;
-        }
-        else {
-            LATHbits.LATH3 = 1;
-        }
-
-        if (LATDbits.LATD7 != temp) {
-            secs += 1;
-            temp = LATDbits.LATD7;
-        }
-        if (secs == 60) {
-            minutes += 1;
-            secs = 0;
-        }
-        if (minutes == 60) {
-            hour += 1;
-            minutes = 0;
-        }
-        if (hour == 24) {
-            hour = 0;
-        }
-        LEDarray_disp_bin(hour);
-    }
+    unsigned int x = TMR0L;
+    unsigned int y = TMR0H;
+    y = y << 8;
+    return y+x;
 }

@@ -23,6 +23,10 @@
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>timers.c</itemPath>
+    <itemPath>timers.h</itemPath>
+    <itemPath>interrupts.c</itemPath>
+    <itemPath>interrupts.h</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>.</Elem>
