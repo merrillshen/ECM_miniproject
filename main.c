@@ -30,12 +30,18 @@ void main(void)
     unsigned int light_strength=0;
     unsigned int temp=0;
     unsigned int secs=0; 
+    unsigned int leap_year=0; 
+    unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
     
     // Preset Variables Here 
     unsigned int set_brightness=50; // Set brightness level at which LED comes on 
     unsigned int minutes=0;  // Preset current time in mins
     unsigned int hour=0; // Preset current time in hours (24 hour clock)
-    
+    unsigned int week_day = 0; // Day of the week
+    unsigned int daydate = 0; // Day date
+    unsigned int month = 0; // Month date 
+    unsigned int year = 0; // Year date
+ 
     while (1) {
         light_strength = ADC_getval();
         if (light_strength >= set_brightness || (1<hour && hour<5 ) ) { // still bright out or between 1-5am
@@ -45,21 +51,31 @@ void main(void)
             LATHbits.LATH3 = 1; //toggle on LED
         }
         
-        if (LATDbits.LATD7 != temp) { //checks if a second has passed
-            secs += 1;
-            temp = LATDbits.LATD7;
-        }
-        if (secs == 60) { 
-            minutes += 1;
-            secs = 0;
-        }
-        if (minutes == 60) { 
-            hour += 1;
-            minutes = 0;
-        }
-        if (hour == 24) { 
-            hour = 0;
-        }
+        // In-built Clock 
+        // Checks RD7 if a second has passed
+        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;}
+        if (secs == 60) { minutes += 1; secs = 0;}
+        if (minutes == 60) { hour += 1; minutes = 0;}
+        if (hour == 24) {hour = 0;} //day += 1;
         LEDarray_disp_bin(hour);
+        
+        // Adjusting for Daylight Savings - Calendar
+        //leap_year = year % 4 
+        //if (leap_year == 0){
+        //    {
+        //        
+//            } 
+//        }
+//        
+//        if (day > monthdays[month-1]) {
+//            month += 1;
+//            day = 1; 
+//        }  
+//        
+//        if (month > 12) {
+//            year += 1;
+//            month = 1; 
+//        }  
+        
     }
 }

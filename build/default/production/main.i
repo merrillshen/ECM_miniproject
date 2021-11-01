@@ -24257,11 +24257,17 @@ void main(void)
     unsigned int light_strength=0;
     unsigned int temp=0;
     unsigned int secs=0;
+    unsigned int leap_year=0;
+    unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
 
 
     unsigned int set_brightness=50;
     unsigned int minutes=0;
     unsigned int hour=0;
+    unsigned int week_day = 0;
+    unsigned int daydate = 0;
+    unsigned int month = 0;
+    unsigned int year = 0;
 
     while (1) {
         light_strength = ADC_getval();
@@ -24272,21 +24278,13 @@ void main(void)
             LATHbits.LATH3 = 1;
         }
 
-        if (LATDbits.LATD7 != temp) {
-            secs += 1;
-            temp = LATDbits.LATD7;
-        }
-        if (secs == 60) {
-            minutes += 1;
-            secs = 0;
-        }
-        if (minutes == 60) {
-            hour += 1;
-            minutes = 0;
-        }
-        if (hour == 24) {
-            hour = 0;
-        }
+
+
+        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;}
+        if (secs == 60) { minutes += 1; secs = 0;}
+        if (minutes == 60) { hour += 1; minutes = 0;}
+        if (hour == 24) {hour = 0;}
         LEDarray_disp_bin(hour);
+# 80 "main.c"
     }
 }
