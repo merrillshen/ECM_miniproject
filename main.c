@@ -26,56 +26,60 @@ void main(void)
     Timer0_init();
     Interrupts_init();
     
-    // Variables for function use 
+    // Variables for function use (not to be set)
     unsigned int light_strength=0;
     unsigned int temp=0;
     unsigned int secs=0; 
     unsigned int leap_year=0; 
     unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+    unsigned int daylight_flag = 0;
     
     // Preset Variables Here 
     unsigned int set_brightness=50; // Set brightness level at which LED comes on 
-    unsigned int minutes=0;  // Preset current time in mins
-    unsigned int hour=0; // Preset current time in hours (24 hour clock)
-    unsigned int week_day = 0; // Day of the week
-    unsigned int daydate = 0; // Day date
-    unsigned int month = 0; // Month date 
-    unsigned int year = 0; // Year date
+    unsigned int minutes=0;         // Set current time in mins
+    int hour=0;                     // Set current time in hours (24 hour clock)
+    unsigned int day_of_week = 0;   // Day of the week, 1 for Mon etc.)
+    unsigned int daydate = 0;       // Day date
+    unsigned int month = 0;         // Month date 
+    unsigned int year = 0;          // Year date
  
     while (1) {
         light_strength = ADC_getval();
         if (light_strength >= set_brightness || (1<hour && hour<5 ) ) { // still bright out or between 1-5am
-            LATHbits.LATH3 = 0; //toggle off LED
-        }
-        else {
-            LATHbits.LATH3 = 1; //toggle on LED
-        }
+            LATHbits.LATH3 = 0; }// Toggle off LED
+        else {LATHbits.LATH3 = 1;} // Toggle on LED
         
-        // In-built Clock 
-        // Checks RD7 if a second has passed
+        // In-built Clock, Checks RD7 if a second has passed
         if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;}
         if (secs == 60) { minutes += 1; secs = 0;}
         if (minutes == 60) { hour += 1; minutes = 0;}
-        if (hour == 24) {hour = 0;} //day += 1;
+        if (hour == 24) {hour = 0;daydate += 1; day_of_week+=1;}
+        if (day_of_week > 7) {day_of_week=1;}
         LEDarray_disp_bin(hour);
         
-        // Adjusting for Daylight Savings - Calendar
-        //leap_year = year % 4 
-        //if (leap_year == 0){
-        //    {
-        //        
-//            } 
-//        }
-//        
-//        if (day > monthdays[month-1]) {
-//            month += 1;
-//            day = 1; 
-//        }  
-//        
-//        if (month > 12) {
-//            year += 1;
-//            month = 1; 
-//        }  
+        // Adjusting for Leap Year - Calendar
+        leap_year = year % 4; 
+        if (leap_year == 0) { monthdays[1] = 29;} 
+        else { monthdays[1] = 28;}
+        if (daydate > monthdays[month-1]) { month += 1; daydate = 1; daylight_flag=0;}  
+        if (month > 12) { year += 1; month = 1;}  
         
+        // // Adjusting Daylight Savings - Calendar
+        if (day_of_week == 7) {
+            if ((daydate+7) > monthdays[month-1]) { // Check if last Sunday of Month
+                if (month == 3){
+                    if (daylight_flag==0){ // First time for the Day
+                        hour+=1;
+                        daylight_flag=1; // Ensures only done once for day
+                    }
+                }
+                if (month ==10) {
+                    if (daylight_flag==0){ // First time for the Day
+                        hour-=1;
+                        daylight_flag=1; // Ensures only done once for day
+                    }
+                }
+            }
+        }
     }
 }

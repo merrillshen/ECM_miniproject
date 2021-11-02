@@ -24259,12 +24259,13 @@ void main(void)
     unsigned int secs=0;
     unsigned int leap_year=0;
     unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+    unsigned int daylight_flag = 0;
 
 
     unsigned int set_brightness=50;
     unsigned int minutes=0;
     unsigned int hour=0;
-    unsigned int week_day = 0;
+    unsigned int day_of_week = 0;
     unsigned int daydate = 0;
     unsigned int month = 0;
     unsigned int year = 0;
@@ -24285,6 +24286,31 @@ void main(void)
         if (minutes == 60) { hour += 1; minutes = 0;}
         if (hour == 24) {hour = 0;}
         LEDarray_disp_bin(hour);
-# 80 "main.c"
+
+
+        leap_year = year % 4;
+        if (leap_year == 0) { monthdays[1] = 29;}
+        else { monthdays[1] = 28;}
+
+        if (daydate > monthdays[month-1]) { month += 1; daydate = 1; daylight_flag=0;}
+        if (month > 12) { year += 1; month = 1;}
+
+
+
+        if (day_of_week == 7) {
+            if ((daydate+7) > monthdays[month-1]) {
+                if (month == 3){
+                    if (daylight_flag ==0){
+                        hour+=1;
+                        daylight_flag=1;
+                    }
+                }
+                if (month ==10) {
+                    if (daylight_flag ==0){
+                        hour-=1;
+                        daylight_flag=1;}
+                }
+            }
+        }
     }
 }
