@@ -41,12 +41,12 @@ void main(void)
     
     // Preset Variables Here 
     unsigned int set_brightness=50; // Set brightness level at which LED comes on 
-    int minutes=0;                  // Set current time in mins
-    unsigned int hour=1;            // Set current time in hours (24 hour clock)
-    unsigned int day_of_week = 4;   // Set Day of the week, 1 for Mon etc.)
-    unsigned int daydate = 25;      // Set Current Day date
-    unsigned int month = 2;         // Set Current Month 
-    unsigned int year = 2024;       // Set Current Year
+    int minutes=12;                  // Set current time in mins
+    unsigned int hour=14;            // Set current time in hours (24 hour clock)
+    unsigned int day_of_week = 5;   // Set Day of the week, 1 for Mon etc.)
+    unsigned int daydate = 5;      // Set Current Day date
+    unsigned int month = 11;         // Set Current Month 
+    unsigned int year = 2021;       // Set Current Year
  
     while (1) {
         light_strength = ADC_getval();
@@ -60,14 +60,14 @@ void main(void)
         else { monthdays[1] = 28;}
         
         // In-built Clock, Checks RD7 if a second has passed and resets flags accordingly
-        if (LATDbits.LATD7 != temp) { daydate += 1; temp = LATDbits.LATD7;} //test
+        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;} 
         if (secs >= 60) { minutes += 1; secs = 0;}
         if (minutes >= 60) { hour += 1; minutes = 0;}
         if (hour >= 24) {hour = 0; daydate += 1; day_of_week+=1;}
         if (day_of_week > 7) {day_of_week=1;}
         if (month > 12) { year += 1; month = 1; daydate=1;}  
         if (daydate > monthdays[month-1]) { month += 1; daydate = 1; 
-            dawn_dusk[0]=0; dawn_dusk[1]=0;}  // Resets Sun Syncrhonisation flag for the month
+            dawn_dusk[0]=0; dawn_dusk[1]=0;}  // Resets Sun Synchronisation flag for the month
         if (month>12) { year+=1; month=1; daydate=1;}  
         LEDarray_disp_bin(hour);
         
@@ -115,7 +115,7 @@ void main(void)
             minutes = curtime - (hour*60);      
         }
         
-        // LCD Debugging code
+        // LCD Visualisation code
         sprintf(buf,"%d:%d %d-%d-%d",hour,minutes,daydate,month,year);
         LCD_sendbyte(0b00001100,0); //Turn on display
         LCD_sendstring(buf); //Send string to LCD

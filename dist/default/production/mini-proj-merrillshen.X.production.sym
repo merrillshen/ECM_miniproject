@@ -3,7 +3,7 @@ ___aodiv@counter 12 0 COMRAM 1
 sprintf@f 76 0 BANK0 1
 ___lwdiv@counter 8 0 COMRAM 1
 LCD_sendnibble@number 2 0 COMRAM 1
-__S0 26AA 0 ABS 0
+__S0 26AC 0 ABS 0
 __S1 120 0 ABS 0
 __S2 0 0 ABS 0
 __S4 0 0 ABS 0
@@ -14,7 +14,7 @@ __Lintentry 0 0 ABS 0
 __size_of_LCD_sendbyte 0 0 ABS 0
 _pad 2176 0 CODE 0
 _abs 24A8 0 CODE 0
-main@leap_year BF 0 BANK0 1
+main@leap_year BD 0 BANK0 1
 __end_of_LCD_Init 1FE4 0 CODE 0
 abs@a 14 0 COMRAM 1
 pad@i 19 0 COMRAM 1
@@ -46,7 +46,7 @@ ttemp5 5C 0 COMRAM 1
 ttemp6 5F 0 COMRAM 1
 ttemp7 63 0 COMRAM 1
 wtemp8 5C 0 COMRAM 1
-__end_of_Timer0_init 2654 0 CODE 0
+__end_of_Timer0_init 2656 0 CODE 0
 __Hconfig 30000C 0 CONFIG 4
 _LCD_sendstring 2556 0 CODE 0
 __Lconfig 0 0 CONFIG 4
@@ -68,7 +68,7 @@ pad@fp 12 0 COMRAM 1
 __Hram 0 0 ABS 0
 __Lram 0 0 ABS 0
 __Hcomram 0 0 ABS 0
-_putch 26A8 0 CODE 0
+_putch 26AA 0 CODE 0
 __Lcomram 0 0 ABS 0
 ?_ADC_getval 2 0 COMRAM 1
 ?_atoi 9 0 COMRAM 1
@@ -87,7 +87,7 @@ __Lnvrram 0 0 COMRAM 1
 ?_sprintf 66 0 BANK0 1
 _vfprintf 2314 0 CODE 0
 _fputs 2464 0 CODE 0
-main@secs BD 0 BANK0 1
+main@secs BF 0 BANK0 1
 int$flags 5B 0 COMRAM 1
 _LCD_Init 1F0A 0 CODE 0
 __end_of_abs 24E8 0 CODE 0
@@ -95,12 +95,12 @@ __size_of_HighISR 0 0 ABS 0
 main@temp BB 0 BANK0 1
 _atoi$1784 11 0 COMRAM 1
 __end_of_vfpfcnvrt 179A 0 CODE 0
-__end_of_putch 26AA 0 CODE 0
+__end_of_putch 26AC 0 CODE 0
 _PIE0bits E29 0 ABS 0
 _PIE2bits E2B 0 ABS 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
-_ADC_init 2654 0 CODE 0
+_ADC_init 2656 0 CODE 0
 _PIR0bits E33 0 ABS 0
 _atoi$1785 15 0 COMRAM 1
 _PIR2bits E35 0 ABS 0
@@ -224,7 +224,7 @@ __Hbank1 0 0 ABS 0
 __Lbank1 0 0 ABS 0
 __Hbank2 0 0 ABS 0
 __Lbank2 0 0 ABS 0
-__end_of_ADC_init 266E 0 CODE 0
+__end_of_ADC_init 2670 0 CODE 0
 __Hbank3 0 0 ABS 0
 __Lbank3 0 0 ABS 0
 __Hbank4 0 0 ABS 0
@@ -280,7 +280,7 @@ __Htext9 0 0 ABS 0
 _Timer0_init 2636 0 CODE 0
 __Ltext9 0 0 ABS 0
 __ptext8 1FE4 0 CODE 0
-__ptext9 26A8 0 CODE 0
+__ptext9 26AA 0 CODE 0
 _vfpfcnvrt 140E 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
@@ -317,7 +317,7 @@ ___aomod 1DA6 0 CODE 0
 __size_of___aomod 0 0 ABS 0
 __Hparam 0 0 COMRAM 1
 __Lparam 0 0 COMRAM 1
-__Hspace_0 26AA 0 ABS 0
+__Hspace_0 26AC 0 ABS 0
 __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
@@ -355,11 +355,11 @@ main@midmin B5 0 BANK0 1
 __size_of_Interrupts_init 0 0 ABS 0
 __HidataBANK0 0 0 ABS 0
 __LidataBANK0 0 0 ABS 0
-__pidataBANK0 266E 0 CODE 0
+__pidataBANK0 2670 0 CODE 0
 __end_of_isdigit 2520 0 CODE 0
 __size_of_LCD_Init 0 0 ABS 0
 __end_of_sprintf 23CC 0 CODE 0
-_LCD_E_TOG 2686 0 CODE 0
+_LCD_E_TOG 2688 0 CODE 0
 __end_of_pad 2238 0 CODE 0
 main@dawn_dusk CF 0 BANK0 1
 __size_of___lwdiv 0 0 ABS 0
@@ -425,13 +425,13 @@ __ptext15 24E8 0 CODE 0
 ___inthi_sp 0 0 STACK 2
 __Htext16 0 0 ABS 0
 __Ltext16 0 0 ABS 0
-__ptext25 2686 0 CODE 0
+__ptext25 2688 0 CODE 0
 __Htext26 0 0 ABS 0
 __Ltext26 0 0 ABS 0
 __ptext16 25EA 0 CODE 0
 __Htext17 0 0 ABS 0
 __Ltext17 0 0 ABS 0
-__ptext26 269C 0 CODE 0
+__ptext26 269E 0 CODE 0
 ___aomod@divisor A 0 COMRAM 1
 __Htext27 0 0 ABS 0
 __Ltext27 0 0 ABS 0
@@ -439,7 +439,7 @@ __ptext17 2238 0 CODE 0
 _ANSELAbits E92 0 ABS 0
 __Htext18 0 0 ABS 0
 __Ltext18 0 0 ABS 0
-__ptext27 2654 0 CODE 0
+__ptext27 2656 0 CODE 0
 __Htext28 0 0 ABS 0
 __Ltext28 0 0 ABS 0
 __ptext18 2636 0 CODE 0
@@ -452,7 +452,7 @@ ___intlo_sp 0 0 STACK 2
 LCD_sendbyte@LSB 5 0 COMRAM 1
 __end_of_dtoa 1A7A 0 CODE 0
 _INTCONbits FF2 0 ABS 0
-__end_of_LCD_E_TOG 269C 0 CODE 0
+__end_of_LCD_E_TOG 269E 0 CODE 0
 LCD_sendstring@string 7 0 COMRAM 1
 ___aodiv@divisor A 0 COMRAM 1
 ___lwdiv@divisor 4 0 COMRAM 1
@@ -461,7 +461,7 @@ __smallconst E00 0 SMALLCONST 0
 __size_of___wmul 0 0 ABS 0
 __Hreset_vec 4 0 CODE 0
 __Lreset_vec 0 0 CODE 0
-__end_of_Interrupts_init 26A8 0 CODE 0
+__end_of_Interrupts_init 26AA 0 CODE 0
 __size_of_atoi 0 0 ABS 0
 vfpfcnvrt@ap 45 0 COMRAM 1
 __accesstop 60 0 ABS 0
@@ -478,7 +478,7 @@ __end_of_vfprintf 237A 0 CODE 0
 vfpfcnvrt@ll 4B 0 COMRAM 1
 LEDarray_disp_bin@number 2 0 COMRAM 1
 __end_of_LCD_sendnibble 2314 0 CODE 0
-_Interrupts_init 269C 0 CODE 0
+_Interrupts_init 269E 0 CODE 0
 __end_of___wmul 2610 0 CODE 0
 start_initialization 241E 0 CODE 0
 ___aodiv@quotient 14 0 COMRAM 1
@@ -509,11 +509,11 @@ smallconst E00 E23 SMALLCONST E00 0
 cstackCOMRAM 1 5B COMRAM 1 1
 cstackBANK0 60 FC BANK0 60 1
 bssBANK1 100 11F BANK1 100 1
-text0 E24 26A9 CODE E24 0
+text0 E24 26AB CODE E24 0
 %locals
 dist/default/production\mini-proj-merrillshen.X.production.o
 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h
-C:\Users\merri\AppData\Local\Temp\xcAsfao.s
+C:\Users\merri\AppData\Local\Temp\xcAskjg.s
 8187 241E 0 CODE 0
 8189 241E 0 CODE 0
 8192 241E 0 CODE 0
@@ -622,10 +622,10 @@ main.c
 115 135E 0 CODE 0
 119 1380 0 CODE 0
 120 13BC 0 CODE 0
-122 13C6 0 CODE 0
-123 13D2 0 CODE 0
-124 13EA 0 CODE 0
-125 13F4 0 CODE 0
+121 13C6 0 CODE 0
+122 13D2 0 CODE 0
+123 13EA 0 CODE 0
+124 13F4 0 CODE 0
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
 9 237A 0 CODE 0
 15 237A 0 CODE 0
@@ -776,8 +776,8 @@ C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
 20 209A 0 CODE 0
 24 20AC 0 CODE 0
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
-7 26A8 0 CODE 0
-9 26A8 0 CODE 0
+7 26AA 0 CODE 0
+9 26AA 0 CODE 0
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
 1 24A8 0 CODE 0
 3 24A8 0 CODE 0
@@ -884,9 +884,9 @@ timers.c
 11 2640 0 CODE 0
 12 2648 0 CODE 0
 15 264A 0 CODE 0
-16 264C 0 CODE 0
-17 2650 0 CODE 0
-18 2652 0 CODE 0
+16 264E 0 CODE 0
+17 2652 0 CODE 0
+18 2654 0 CODE 0
 LEDarray.c
 8 2610 0 CODE 0
 13 2610 0 CODE 0
@@ -991,30 +991,30 @@ LCD.c
 51 230A 0 CODE 0
 52 2312 0 CODE 0
 LCD.c
-9 2686 0 CODE 0
-11 2686 0 CODE 0
-12 2688 0 CODE 0
-13 2690 0 CODE 0
-14 2692 0 CODE 0
-15 269A 0 CODE 0
+9 2688 0 CODE 0
+11 2688 0 CODE 0
+12 268A 0 CODE 0
+13 2692 0 CODE 0
+14 2694 0 CODE 0
+15 269C 0 CODE 0
 interrupts.c
-8 269C 0 CODE 0
-12 269C 0 CODE 0
-13 269E 0 CODE 0
-14 26A2 0 CODE 0
-15 26A4 0 CODE 0
-16 26A6 0 CODE 0
+8 269E 0 CODE 0
+12 269E 0 CODE 0
+13 26A0 0 CODE 0
+14 26A4 0 CODE 0
+15 26A6 0 CODE 0
+16 26A8 0 CODE 0
 ADC.c
-9 2654 0 CODE 0
-11 2654 0 CODE 0
-12 2656 0 CODE 0
-15 265A 0 CODE 0
-16 265E 0 CODE 0
-17 2662 0 CODE 0
-18 2666 0 CODE 0
-19 2668 0 CODE 0
-20 266A 0 CODE 0
-21 266C 0 CODE 0
+9 2656 0 CODE 0
+11 2656 0 CODE 0
+12 2658 0 CODE 0
+15 265C 0 CODE 0
+16 2660 0 CODE 0
+17 2664 0 CODE 0
+18 2668 0 CODE 0
+19 266A 0 CODE 0
+20 266C 0 CODE 0
+21 266E 0 CODE 0
 ADC.c
 23 25BA 0 CODE 0
 27 25BA 0 CODE 0
@@ -1023,8 +1023,8 @@ ADC.c
 35 25D0 0 CODE 0
 37 25E0 0 CODE 0
 38 25E8 0 CODE 0
-C:\Users\merri\AppData\Local\Temp\xcAsfao.s
-15117 8 0 CODE 0
+C:\Users\merri\AppData\Local\Temp\xcAskjg.s
+15116 8 0 CODE 0
 interrupts.c
 22 8 0 CODE 0
 24 A 0 CODE 0

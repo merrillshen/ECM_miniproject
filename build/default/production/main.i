@@ -24423,12 +24423,12 @@ void main(void)
 
 
     unsigned int set_brightness=50;
-    int minutes=0;
-    unsigned int hour=1;
-    unsigned int day_of_week = 4;
-    unsigned int daydate = 25;
-    unsigned int month = 2;
-    unsigned int year = 2024;
+    int minutes=12;
+    unsigned int hour=14;
+    unsigned int day_of_week = 5;
+    unsigned int daydate = 5;
+    unsigned int month = 11;
+    unsigned int year = 2021;
 
     while (1) {
         light_strength = ADC_getval();
@@ -24442,7 +24442,7 @@ void main(void)
         else { monthdays[1] = 28;}
 
 
-        if (LATDbits.LATD7 != temp) { daydate += 1; temp = LATDbits.LATD7;}
+        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;}
         if (secs >= 60) { minutes += 1; secs = 0;}
         if (minutes >= 60) { hour += 1; minutes = 0;}
         if (hour >= 24) {hour = 0; daydate += 1; day_of_week+=1;}
@@ -24500,7 +24500,6 @@ void main(void)
 
         sprintf(buf,"%d:%d %d-%d-%d",hour,minutes,daydate,month,year);
         LCD_sendbyte(0b00001100,0);
-
         LCD_sendstring(buf);
         _delay((unsigned long)((500)*(64000000/4000.0)));
         LCD_sendbyte(0b00000001,0);

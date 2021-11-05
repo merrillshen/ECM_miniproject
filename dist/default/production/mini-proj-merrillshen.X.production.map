@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.32\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\mini-proj-merrillshen.X.production.sym \
   --cmf=dist/default/production\mini-proj-merrillshen.X.production.cmf -z \
-  -Q18F67K40 -oC:\Users\merri\AppData\Local\Temp\xcAsfao.4 \
+  -Q18F67K40 -oC:\Users\merri\AppData\Local\Temp\xcAskjg.4 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/mini-proj-merrillshen.X.production.map -E1 \
   -ver=XC8 Compiler --acfsm=1493 -ASTACK=0120h-0DE9h -pstack=STACK \
@@ -28,7 +28,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\merri\AppData\Local\Temp\xcAsfao.o \
+  C:\Users\merri\AppData\Local\Temp\xcAskjg.o \
   dist/default/production\mini-proj-merrillshen.X.production.o 
 
 Object code version is 3.11
@@ -38,7 +38,7 @@ Machine type is 18F67K40
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\merri\AppData\Local\Temp\xcAsfao.o
+C:\Users\merri\AppData\Local\Temp\xcAskjg.o
                 idloc                            200000   200000       10        0       5
                 config                           300000   300000        C        0       4
                 init                                 82       82        4        4       0
@@ -50,16 +50,16 @@ dist/default/production\mini-proj-merrillshen.X.production.o
                 temp                                 5B       5B        1        1       1
                 smallconst                          E00      E00       24      700       0
                 text28                             25BA     25BA       30      712       0
-                text27                             2654     2654       1A      712       0
-                text26                             269C     269C        C      712       0
-                text25                             2686     2686       16      712       0
+                text27                             2656     2656       1A      712       0
+                text26                             269E     269E        C      712       0
+                text25                             2688     2688       16      712       0
                 text24                             22AC     22AC       68      712       0
                 text23                             258A     258A       30      712       0
                 text22                             1F0A     1F0A       DA      712       0
                 text21                             2556     2556       34      712       0
                 text20                             20AE     20AE       C8      712       0
                 text19                             2610     2610       26      712       0
-                text18                             2636     2636       1E      712       0
+                text18                             2636     2636       20      712       0
                 text17                             2238     2238       74      712       0
                 text16                             25EA     25EA       26      712       0
                 text15                             24E8     24E8       38      712       0
@@ -68,7 +68,7 @@ dist/default/production\mini-proj-merrillshen.X.production.o
                 text12                             1C1E     1C1E      188      712       0
                 text11                             1DA6     1DA6      164      712       0
                 text10                             24A8     24A8       40      712       0
-                text9                              26A8     26A8        2      712       0
+                text9                              26AA     26AA        2      712       0
                 text8                              1FE4     1FE4       CA      712       0
                 text7                              2464     2464       44      712       0
                 text6                              2520     2520       36      712       0
@@ -85,7 +85,7 @@ dist/default/production\mini-proj-merrillshen.X.production.o
                 bssBANK0                             F3       F3        A       60       1
                 bssCOMRAM                            59       59        2        1       1
                 cinit                              241E     241E       46      712       0
-                idataBANK0                         266E     266E       18      712       0
+                idataBANK0                         2670     2670       18      712       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   STACK          
@@ -95,16 +95,16 @@ TOTAL           Name                               Link     Load   Length     Sp
                 init                                 82       82        4         0
                 reset_vec                             0        0        4         0
                 text28                             25BA     25BA       30         0
-                text27                             2654     2654       1A         0
-                text26                             269C     269C        C         0
-                text25                             2686     2686       16         0
+                text27                             2656     2656       1A         0
+                text26                             269E     269E        C         0
+                text25                             2688     2688       16         0
                 text24                             22AC     22AC       68         0
                 text23                             258A     258A       30         0
                 text22                             1F0A     1F0A       DA         0
                 text21                             2556     2556       34         0
                 text20                             20AE     20AE       C8         0
                 text19                             2610     2610       26         0
-                text18                             2636     2636       1E         0
+                text18                             2636     2636       20         0
                 text17                             2238     2238       74         0
                 text16                             25EA     25EA       26         0
                 text15                             24E8     24E8       38         0
@@ -113,7 +113,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text12                             1C1E     1C1E      188         0
                 text11                             1DA6     1DA6      164         0
                 text10                             24A8     24A8       40         0
-                text9                              26A8     26A8        2         0
+                text9                              26AA     26AA        2         0
                 text8                              1FE4     1FE4       CA         0
                 text7                              2464     2464       44         0
                 text6                              2520     2520       36         0
@@ -124,7 +124,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text1                              237A     237A       52         0
                 text0                               E24      E24      5EA         0
                 cinit                              241E     241E       46         0
-                idataBANK0                         266E     266E       18         0
+                idataBANK0                         2670     2670       18         0
 
         CLASS   CONST          
 
@@ -198,7 +198,7 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
                 cstackBANK0                    000060  00009D  0000FD        60       1  BANK0   
                 bssBANK1                       000100  000020  000120       100       1  BANK1   
                 smallconst                     000E00  000024  000E24       700       0  SMALLCON
-                text0                          000E24  001886  0026AA       712       0  CODE    
+                text0                          000E24  001888  0026AC       712       0  CODE    
 
 
 UNUSED ADDRESS RANGES
@@ -223,18 +223,18 @@ UNUSED ADDRESS RANGES
                          000120-000DE9              CCA
         CODE             000004-000007                4
                          000086-000DFF              D7A
-                         0026AA-01FFFF            1D956
+                         0026AC-01FFFF            1D954
         COMRAM           00005C-00005F                4
         CONST            000004-000007                4
                          000086-000DFF              D7A
-                         0026AA-01FFFF            1D956
+                         0026AC-01FFFF            1D954
         EEDATA           310000-3103FF              400
-        MEDIUMCONST      0026AA-00FFFF             D956
+        MEDIUMCONST      0026AC-00FFFF             D954
                          010E00-01FFFF             F200
         RAM              0000FD-0000FF                3
                          000120-000DE9              100
         SFR              000DEF-000FFF              100
-        SMALLCONST       0026AA-01FFFF              100
+        SMALLCONST       0026AC-01FFFF              100
         STACK            000120-000DE9              CCA
 
                                   Symbol Table
@@ -264,7 +264,7 @@ LCD_sendstring@string       cstackCOMRAM 000007
 LEDarray_disp_bin@number    cstackCOMRAM 000002
 _ADCON0bits                 (abs)        000F60
 _ADC_getval                 text28       0025BA
-_ADC_init                   text27       002654
+_ADC_init                   text27       002656
 _ADPCH                      (abs)        000F5F
 _ADREFbits                  (abs)        000F58
 _ADRESH                     (abs)        000F64
@@ -272,7 +272,7 @@ _ANSELAbits                 (abs)        000E92
 _ANSELFbits                 (abs)        000EB4
 _HighISR                    intcode      000008
 _INTCONbits                 (abs)        000FF2
-_Interrupts_init            text26       00269C
+_Interrupts_init            text26       00269E
 _LATAbits                   (abs)        000F79
 _LATBbits                   (abs)        000F7A
 _LATCbits                   (abs)        000F7B
@@ -281,7 +281,7 @@ _LATEbits                   (abs)        000F7D
 _LATFbits                   (abs)        000F7E
 _LATGbits                   (abs)        000F7F
 _LATHbits                   (abs)        000F80
-_LCD_E_TOG                  text25       002686
+_LCD_E_TOG                  text25       002688
 _LCD_Init                   text22       001F0A
 _LCD_sendbyte               text23       00258A
 _LCD_sendnibble             text24       0022AC
@@ -368,7 +368,7 @@ __Hreset_vec                reset_vec    000004
 __Hrparam                   rparam       000000
 __Hsfr                      sfr          000000
 __Hsmallconst               smallconst   000E24
-__Hspace_0                  (abs)        0026AA
+__Hspace_0                  (abs)        0026AC
 __Hspace_1                  (abs)        000120
 __Hspace_2                  (abs)        000000
 __Hspace_4                  (abs)        60000C
@@ -505,7 +505,7 @@ __Ltext6                    text6        000000
 __Ltext7                    text7        000000
 __Ltext8                    text8        000000
 __Ltext9                    text9        000000
-__S0                        (abs)        0026AA
+__S0                        (abs)        0026AC
 __S1                        (abs)        000120
 __S2                        (abs)        000000
 __S4                        (abs)        000000
@@ -538,17 +538,17 @@ ___wmul@product             cstackCOMRAM 000006
 __accesstop                 (abs)        000060
 __activetblptr              (abs)        000003
 __end_of_ADC_getval         text28       0025EA
-__end_of_ADC_init           text27       00266E
+__end_of_ADC_init           text27       002670
 __end_of_HighISR            intcode      000082
-__end_of_Interrupts_init    text26       0026A8
-__end_of_LCD_E_TOG          text25       00269C
+__end_of_Interrupts_init    text26       0026AA
+__end_of_LCD_E_TOG          text25       00269E
 __end_of_LCD_Init           text22       001FE4
 __end_of_LCD_sendbyte       text23       0025BA
 __end_of_LCD_sendnibble     text24       002314
 __end_of_LCD_sendstring     text21       00258A
 __end_of_LEDarray_disp_bin  text20       002176
 __end_of_LEDarray_init      text19       002636
-__end_of_Timer0_init        text18       002654
+__end_of_Timer0_init        text18       002656
 __end_of___aodiv            text12       001DA6
 __end_of___aomod            text11       001F0A
 __end_of___lwdiv            text17       0022AC
@@ -563,7 +563,7 @@ __end_of_isdigit            text15       002520
 __end_of_isspace            text14       00241E
 __end_of_main               text0        00140E
 __end_of_pad                text5        002238
-__end_of_putch              text9        0026AA
+__end_of_putch              text9        0026AC
 __end_of_sprintf            text1        0023CC
 __end_of_strlen             text6        002556
 __end_of_vfpfcnvrt          text3        00179A
@@ -577,7 +577,7 @@ __pcinit                    cinit        00241E
 __pcstackBANK0              cstackBANK0  000060
 __pcstackCOMRAM             cstackCOMRAM 000001
 __pdataBANK0                dataBANK0    0000DB
-__pidataBANK0               idataBANK0   00266E
+__pidataBANK0               idataBANK0   002670
 __pintcode                  intcode      000008
 __psmallconst               smallconst   000E00
 __ptext0                    text0        000E24
@@ -598,9 +598,9 @@ __ptext21                   text21       002556
 __ptext22                   text22       001F0A
 __ptext23                   text23       00258A
 __ptext24                   text24       0022AC
-__ptext25                   text25       002686
-__ptext26                   text26       00269C
-__ptext27                   text27       002654
+__ptext25                   text25       002688
+__ptext26                   text26       00269E
+__ptext27                   text27       002656
 __ptext28                   text28       0025BA
 __ptext3                    text3        00140E
 __ptext4                    text4        00179A
@@ -608,7 +608,7 @@ __ptext5                    text5        002176
 __ptext6                    text6        002520
 __ptext7                    text7        002464
 __ptext8                    text8        001FE4
-__ptext9                    text9        0026A8
+__ptext9                    text9        0026AA
 __ramtop                    ramtop       000E00
 __size_of_ADC_getval        (abs)        000000
 __size_of_ADC_init          (abs)        000000
@@ -659,7 +659,7 @@ _main                       text0        000E24
 _nout                       bssBANK0     0000F7
 _pad                        text5        002176
 _prec                       bssBANK0     0000FB
-_putch                      text9        0026A8
+_putch                      text9        0026AA
 _sprintf                    text1        00237A
 _strlen                     text6        002520
 _vfpfcnvrt                  text3        00140E
@@ -703,7 +703,7 @@ main@daydate                cstackBANK0  0000D3
 main@daylight_flag          cstackBANK0  0000C3
 main@diff                   cstackBANK0  0000B9
 main@hour                   cstackBANK0  0000D9
-main@leap_year              cstackBANK0  0000BF
+main@leap_year              cstackBANK0  0000BD
 main@light_strength         cstackBANK0  0000CD
 main@midhour                cstackBANK0  0000B7
 main@midmin                 cstackBANK0  0000B5
@@ -711,7 +711,7 @@ main@midtime                cstackBANK0  0000CB
 main@minutes                cstackBANK0  0000D5
 main@month                  cstackBANK0  0000D7
 main@monthdays              cstackBANK0  00009D
-main@secs                   cstackBANK0  0000BD
+main@secs                   cstackBANK0  0000BF
 main@set_brightness         cstackBANK0  0000C9
 main@temp                   cstackBANK0  0000BB
 main@year                   cstackBANK0  0000C7
@@ -759,9 +759,9 @@ C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c estimated size: 56
 
 timers.c
-		_Timer0_init   		CODE           	2636	0000	30
+		_Timer0_init   		CODE           	2636	0000	32
 
-timers.c estimated size: 30
+timers.c estimated size: 32
 
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 		_vfpfcnvrt     		CODE           	140E	0000	908
@@ -772,7 +772,7 @@ C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c estimated size: 1940
 
 interrupts.c
-		_Interrupts_init		CODE           	269C	0000	12
+		_Interrupts_init		CODE           	269E	0000	12
 		_HighISR       		CODE           	0008	0000	122
 
 interrupts.c estimated size: 134
@@ -794,7 +794,7 @@ C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c estimated size: 68
 
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
-		_putch         		CODE           	26A8	0000	2
+		_putch         		CODE           	26AA	0000	2
 
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c estimated size: 2
 
@@ -824,7 +824,7 @@ shared
 shared estimated size: 60
 
 ADC.c
-		_ADC_init      		CODE           	2654	0000	26
+		_ADC_init      		CODE           	2656	0000	26
 		_ADC_getval    		CODE           	25BA	0000	48
 
 ADC.c estimated size: 74
@@ -857,7 +857,7 @@ C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c estimated s
 LCD.c
 		_LCD_Init      		CODE           	1F0A	0000	218
 		_LCD_sendbyte  		CODE           	258A	0000	48
-		_LCD_E_TOG     		CODE           	2686	0000	22
+		_LCD_E_TOG     		CODE           	2688	0000	22
 		_LCD_sendnibble		CODE           	22AC	0000	104
 		_LCD_sendstring		CODE           	2556	0000	52
 

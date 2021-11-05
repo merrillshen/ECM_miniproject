@@ -575,15 +575,15 @@
 [v main@day_of_week day_of_week `ui  1 a 2 101 ]
 "38
 [v main@daylight_flag daylight_flag `ui  1 a 2 99 ]
-"36
-[v main@leap_year leap_year `ui  1 a 2 95 ]
 "35
-[v main@secs secs `ui  1 a 2 93 ]
+[v main@secs secs `ui  1 a 2 95 ]
+"36
+[v main@leap_year leap_year `ui  1 a 2 93 ]
 "34
 [v main@temp temp `ui  1 a 2 91 ]
 "36
 [v main@F14546 F14546 `[12]ui  1 s 24 F14546 ]
-"127
+"126
 } 0
 "9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
