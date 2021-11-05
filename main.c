@@ -18,7 +18,7 @@ void main(void)
     LATHbits.LATH3=0;   //set initial output state
     TRISHbits.TRISH3=0; //set TRIS value for pin (output)
    
-    // setup pin to track each second
+    // setup pin to track & visualise each second
     LATDbits.LATD7=0;   //set initial output state
     TRISDbits.TRISD7=0; //set TRIS value for pin (output)
     
@@ -29,28 +29,28 @@ void main(void)
     Interrupts_init();
     LCD_Init();
     
-    // Variables for function use (not to be set)
-    unsigned int light_strength=0;
-    unsigned int temp=0;
-    unsigned int secs=0; 
-    unsigned int leap_year=0; 
+    // Variables for function use (not to be tempered with)
+    unsigned int light_strength=0;      // For ADC value measurement function use
+    unsigned int temp=0;                // For clock function use 
+    unsigned int secs=0;                // Increments clock 
+    unsigned int leap_year=0;           // For Leap Year function use 
     unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
-    unsigned int daylight_flag = 0;
-    unsigned int dawn_dusk[2] = {0,0};
-    char buf[25];
+    unsigned int daylight_flag = 0;     // Ensures Daylight Savings adjustment done once
+    unsigned int dawn_dusk[2] = {0,0};  // Stores sunrise and sunset time
+    char buf[25];                       // For LCD Function use 
     
     // Preset Variables Here 
     unsigned int set_brightness=50; // Set brightness level at which LED comes on 
     int minutes=0;                  // Set current time in mins
     unsigned int hour=1;            // Set current time in hours (24 hour clock)
-    unsigned int day_of_week = 4;   // Day of the week, 1 for Mon etc.)
-    unsigned int daydate = 25;       // Day date
-    unsigned int month = 2;        // Month date 
-    unsigned int year = 2024;       // Year date
+    unsigned int day_of_week = 4;   // Set Day of the week, 1 for Mon etc.)
+    unsigned int daydate = 25;      // Set Current Day date
+    unsigned int month = 2;         // Set Current Month 
+    unsigned int year = 2024;       // Set Current Year
  
     while (1) {
         light_strength = ADC_getval();
-        if (light_strength >= set_brightness || (1<hour && hour<5 ) ) { // still bright out or between 1-5am
+        if (light_strength >= set_brightness || (1<hour && hour<5 ) ) { // still bright out OR between 1-5am
             LATHbits.LATH3 = 0;} // Toggle off LED
         else {LATHbits.LATH3 = 1;} // Toggle on LED
         
@@ -59,7 +59,7 @@ void main(void)
         if (leap_year == 0) { monthdays[1] = 29;} 
         else { monthdays[1] = 28;}
         
-        // In-built Clock, Checks RD7 if a second has passed
+        // In-built Clock, Checks RD7 if a second has passed and resets flags accordingly
         if (LATDbits.LATD7 != temp) { daydate += 1; temp = LATDbits.LATD7;} //test
         if (secs >= 60) { minutes += 1; secs = 0;}
         if (minutes >= 60) { hour += 1; minutes = 0;}
@@ -67,7 +67,7 @@ void main(void)
         if (day_of_week > 7) {day_of_week=1;}
         if (month > 12) { year += 1; month = 1; daydate=1;}  
         if (daydate > monthdays[month-1]) { month += 1; daydate = 1; 
-            dawn_dusk[0]=0; dawn_dusk[1]=0;}  
+            dawn_dusk[0]=0; dawn_dusk[1]=0;}  // Resets Sun Syncrhonisation flag for the month
         if (month>12) { year+=1; month=1; daydate=1;}  
         LEDarray_disp_bin(hour);
         
@@ -91,7 +91,7 @@ void main(void)
        
         // Synchronise with Sunlight monthly
         if (daydate == 25){ // checked once a month
-            if (dawn_dusk[0] == 0){
+            if (dawn_dusk[0] == 0){ // If not done yet
                 if (light_strength >= set_brightness){
                     if (hour>5 && hour<9){
                         dawn_dusk[0] = hour*60 + minutes;  
@@ -118,7 +118,6 @@ void main(void)
         // LCD Debugging code
         sprintf(buf,"%d:%d %d-%d-%d",hour,minutes,daydate,month,year);
         LCD_sendbyte(0b00001100,0); //Turn on display
-        
         LCD_sendstring(buf); //Send string to LCD
         __delay_ms(500); //Delay to show value before clearing
         LCD_sendbyte(0b00000001,0); //Clear display
