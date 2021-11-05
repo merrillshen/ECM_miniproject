@@ -3,4 +3,5 @@ main.c  \
 LEDarray.h  \
 ADC.h  \
 timers.h  \
-interrupts.h 
+interrupts.h  \
+LCD.h 

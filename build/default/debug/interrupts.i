@@ -24194,8 +24194,6 @@ void __attribute__((picinterrupt(("high_priority")))) HighISR();
 
 
 
-
-
 void Interrupts_init(void)
 {
 
@@ -24219,7 +24217,6 @@ void __attribute__((picinterrupt(("high_priority")))) HighISR()
 
     if (PIR0bits.TMR0IF == 1){
         LATDbits.LATD7 = !LATDbits.LATD7;
-
         PIR0bits.TMR0IF=0;
     }
 }

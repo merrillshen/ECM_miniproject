@@ -21,6 +21,8 @@
       <itemPath>interrupts.h</itemPath>
       <itemPath>timers.c</itemPath>
       <itemPath>timers.h</itemPath>
+      <itemPath>LCD.c</itemPath>
+      <itemPath>LCD.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

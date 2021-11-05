@@ -24237,13 +24237,12 @@ void __attribute__((picinterrupt(("high_priority")))) HighISR();
 
 
 
-
-
 void main(void)
 {
 
     LATHbits.LATH3=0;
     TRISHbits.TRISH3=0;
+
 
     LATDbits.LATD7=0;
     TRISDbits.TRISD7=0;
@@ -24254,34 +24253,66 @@ void main(void)
     Timer0_init();
     Interrupts_init();
 
+
     unsigned int light_strength=0;
-    unsigned int set_brightness=50;
     unsigned int temp=0;
     unsigned int secs=0;
+    unsigned int leap_year=0;
+    unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+    unsigned int daylight_flag = 0;
+    unsigned int startnend[20] = {};
+
+
+
+    unsigned int set_brightness=50;
     unsigned int minutes=0;
-    unsigned int hour=0;
+    int hour=16;
+    unsigned int day_of_week = 4;
+    unsigned int daydate = 4;
+    unsigned int month = 11;
+    unsigned int year = 2021;
+
     while (1) {
         light_strength = ADC_getval();
-        if (light_strength >= set_brightness) {
-            LATHbits.LATH3 = 0;
-        }
-        else {
-            LATHbits.LATH3 = 1;
-        }
-        if (PIR0bits.TMR0IF == 1) {
-            secs += 1;
-        }
-        if (secs == 60) {
-            minutes += 1;
-            secs = 0;
-        }
-        if (minutes == 60) {
-            hour += 1;
-            minutes = 0;
-        }
-        if (hour == 24) {
-            hour = 0;
-        }
+        if (light_strength >= set_brightness || (1<hour && hour<5 ) ) {
+            LATHbits.LATH3 = 0; }
+        else {LATHbits.LATH3 = 1;}
+
+
+        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;}
+        if (secs == 60) { minutes += 1; secs = 0;}
+        if (minutes == 60) { hour += 1; minutes = 0;}
+        if (hour == 24) {hour = 0;daydate += 1; day_of_week+=1;}
+        if (day_of_week > 7) {day_of_week=1;}
         LEDarray_disp_bin(hour);
+
+
+        leap_year = year % 4;
+        if (leap_year == 0) { monthdays[1] = 29;}
+        else { monthdays[1] = 28;}
+        if (daydate > monthdays[month-1]) { month += 1; daydate = 1; daylight_flag=0;}
+        if (month > 12) { year += 1; month = 1;}
+
+
+        if (day_of_week == 7) {
+            if ((daydate+7) > monthdays[month-1]) {
+                if (month == 3){
+                    if (daylight_flag==0){
+                        hour+=1;
+                        daylight_flag=1;
+                    }
+                }
+                if (month ==10) {
+                    if (daylight_flag==0){
+                        hour-=1;
+                        daylight_flag=1;
+                    }
+                }
+            }
+        }
+
+
+
+
     }
 }

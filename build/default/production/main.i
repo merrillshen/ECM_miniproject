@@ -24234,6 +24234,163 @@ void Interrupts_init(void);
 void __attribute__((picinterrupt(("high_priority")))) HighISR();
 # 9 "main.c" 2
 
+# 1 "./LCD.h" 1
+
+
+
+
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 1 3
+# 24 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 1 3
+
+
+
+
+
+typedef void * va_list[1];
+
+
+
+
+typedef void * __isoc_va_list[1];
+# 137 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
+typedef long ssize_t;
+# 246 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
+typedef long long off_t;
+# 399 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
+typedef struct _IO_FILE FILE;
+# 24 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 2 3
+# 52 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 3
+typedef union _G_fpos64_t {
+ char __opaque[16];
+ double __align;
+} fpos_t;
+
+extern FILE *const stdin;
+extern FILE *const stdout;
+extern FILE *const stderr;
+
+
+
+
+
+FILE *fopen(const char *restrict, const char *restrict);
+FILE *freopen(const char *restrict, const char *restrict, FILE *restrict);
+int fclose(FILE *);
+
+int remove(const char *);
+int rename(const char *, const char *);
+
+int feof(FILE *);
+int ferror(FILE *);
+int fflush(FILE *);
+void clearerr(FILE *);
+
+int fseek(FILE *, long, int);
+long ftell(FILE *);
+void rewind(FILE *);
+
+int fgetpos(FILE *restrict, fpos_t *restrict);
+int fsetpos(FILE *, const fpos_t *);
+
+size_t fread(void *restrict, size_t, size_t, FILE *restrict);
+size_t fwrite(const void *restrict, size_t, size_t, FILE *restrict);
+
+int fgetc(FILE *);
+int getc(FILE *);
+int getchar(void);
+int ungetc(int, FILE *);
+
+int fputc(int, FILE *);
+int putc(int, FILE *);
+int putchar(int);
+
+char *fgets(char *restrict, int, FILE *restrict);
+
+char *gets(char *);
+
+
+int fputs(const char *restrict, FILE *restrict);
+int puts(const char *);
+
+#pragma printf_check(printf) const
+#pragma printf_check(vprintf) const
+#pragma printf_check(sprintf) const
+#pragma printf_check(snprintf) const
+#pragma printf_check(vsprintf) const
+#pragma printf_check(vsnprintf) const
+
+int printf(const char *restrict, ...);
+int fprintf(FILE *restrict, const char *restrict, ...);
+int sprintf(char *restrict, const char *restrict, ...);
+int snprintf(char *restrict, size_t, const char *restrict, ...);
+
+int vprintf(const char *restrict, __isoc_va_list);
+int vfprintf(FILE *restrict, const char *restrict, __isoc_va_list);
+int vsprintf(char *restrict, const char *restrict, __isoc_va_list);
+int vsnprintf(char *restrict, size_t, const char *restrict, __isoc_va_list);
+
+int scanf(const char *restrict, ...);
+int fscanf(FILE *restrict, const char *restrict, ...);
+int sscanf(const char *restrict, const char *restrict, ...);
+int vscanf(const char *restrict, __isoc_va_list);
+int vfscanf(FILE *restrict, const char *restrict, __isoc_va_list);
+int vsscanf(const char *restrict, const char *restrict, __isoc_va_list);
+
+void perror(const char *);
+
+int setvbuf(FILE *restrict, char *restrict, int, size_t);
+void setbuf(FILE *restrict, char *restrict);
+
+char *tmpnam(char *);
+FILE *tmpfile(void);
+
+
+
+
+FILE *fmemopen(void *restrict, size_t, const char *restrict);
+FILE *open_memstream(char **, size_t *);
+FILE *fdopen(int, const char *);
+FILE *popen(const char *, const char *);
+int pclose(FILE *);
+int fileno(FILE *);
+int fseeko(FILE *, off_t, int);
+off_t ftello(FILE *);
+int dprintf(int, const char *restrict, ...);
+int vdprintf(int, const char *restrict, __isoc_va_list);
+void flockfile(FILE *);
+int ftrylockfile(FILE *);
+void funlockfile(FILE *);
+int getc_unlocked(FILE *);
+int getchar_unlocked(void);
+int putc_unlocked(int, FILE *);
+int putchar_unlocked(int);
+ssize_t getdelim(char **restrict, size_t *restrict, int, FILE *restrict);
+ssize_t getline(char **restrict, size_t *restrict, FILE *restrict);
+int renameat(int, const char *, int, const char *);
+char *ctermid(char *);
+
+
+
+
+
+
+
+char *tempnam(const char *, const char *);
+# 5 "./LCD.h" 2
+# 18 "./LCD.h"
+void LCD_E_TOG(void);
+void LCD_sendnibble(unsigned char number);
+void LCD_sendbyte(unsigned char Byte, char type);
+void LCD_Init(void);
+void LCD_setline (char line);
+void LCD_sendstring(char *string);
+void LCD_scroll(void);
+void LCD_clear(void);
+void ADC2String(char *buf, unsigned int number);
+# 10 "main.c" 2
+
+
 
 
 
@@ -24252,6 +24409,7 @@ void main(void)
     ADC_init();
     Timer0_init();
     Interrupts_init();
+    LCD_Init();
 
 
     unsigned int light_strength=0;
@@ -24260,57 +24418,92 @@ void main(void)
     unsigned int leap_year=0;
     unsigned int monthdays[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
     unsigned int daylight_flag = 0;
+    unsigned int dawn_dusk[2] = {0,0};
+    char buf[25];
 
 
     unsigned int set_brightness=50;
-    unsigned int minutes=0;
-    unsigned int hour=0;
-    unsigned int day_of_week = 0;
-    unsigned int daydate = 0;
-    unsigned int month = 0;
-    unsigned int year = 0;
+    int minutes=0;
+    unsigned int hour=1;
+    unsigned int day_of_week = 4;
+    unsigned int daydate = 25;
+    unsigned int month = 2;
+    unsigned int year = 2024;
 
     while (1) {
         light_strength = ADC_getval();
         if (light_strength >= set_brightness || (1<hour && hour<5 ) ) {
-            LATHbits.LATH3 = 0;
-        }
-        else {
-            LATHbits.LATH3 = 1;
-        }
-
-
-
-        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;}
-        if (secs == 60) { minutes += 1; secs = 0;}
-        if (minutes == 60) { hour += 1; minutes = 0;}
-        if (hour == 24) {hour = 0;}
-        LEDarray_disp_bin(hour);
+            LATHbits.LATH3 = 0;}
+        else {LATHbits.LATH3 = 1;}
 
 
         leap_year = year % 4;
         if (leap_year == 0) { monthdays[1] = 29;}
         else { monthdays[1] = 28;}
 
-        if (daydate > monthdays[month-1]) { month += 1; daydate = 1; daylight_flag=0;}
-        if (month > 12) { year += 1; month = 1;}
 
+        if (LATDbits.LATD7 != temp) { daydate += 1; temp = LATDbits.LATD7;}
+        if (secs >= 60) { minutes += 1; secs = 0;}
+        if (minutes >= 60) { hour += 1; minutes = 0;}
+        if (hour >= 24) {hour = 0; daydate += 1; day_of_week+=1;}
+        if (day_of_week > 7) {day_of_week=1;}
+        if (month > 12) { year += 1; month = 1; daydate=1;}
+        if (daydate > monthdays[month-1]) { month += 1; daydate = 1;
+            dawn_dusk[0]=0; dawn_dusk[1]=0;}
+        if (month>12) { year+=1; month=1; daydate=1;}
+        LEDarray_disp_bin(hour);
 
 
         if (day_of_week == 7) {
             if ((daydate+7) > monthdays[month-1]) {
                 if (month == 3){
-                    if (daylight_flag ==0){
+                    if (daylight_flag==0){
                         hour+=1;
                         daylight_flag=1;
                     }
                 }
                 if (month ==10) {
-                    if (daylight_flag ==0){
+                    if (daylight_flag==0 && hour==1){
                         hour-=1;
-                        daylight_flag=1;}
+                        daylight_flag=1;
+                    }
                 }
             }
         }
+
+
+        if (daydate == 25){
+            if (dawn_dusk[0] == 0){
+                if (light_strength >= set_brightness){
+                    if (hour>5 && hour<9){
+                        dawn_dusk[0] = hour*60 + minutes;
+                    }
+                }
+            }
+            if (dawn_dusk[1] == 0){
+                if (light_strength <= set_brightness){
+                    if (hour>5 && hour<9){
+                        dawn_dusk[1] = hour*60 + minutes;
+                    }
+                }
+            }
+            unsigned int midtime = (dawn_dusk[0]+dawn_dusk[1])/2;
+            unsigned int midhour = midtime/60;
+            unsigned int midmin = midtime-(midhour*60);
+            int diff = 720 - midtime;
+            unsigned int curtime = (hour*60) + minutes;
+            curtime += diff;
+            hour = curtime/60;
+            minutes = curtime - (hour*60);
+        }
+
+
+        sprintf(buf,"%d:%d %d-%d-%d",hour,minutes,daydate,month,year);
+        LCD_sendbyte(0b00001100,0);
+
+        LCD_sendstring(buf);
+        _delay((unsigned long)((500)*(64000000/4000.0)));
+        LCD_sendbyte(0b00000001,0);
+        _delay((unsigned long)((2)*(64000000/4000.0)));
     }
 }

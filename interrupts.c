@@ -27,7 +27,9 @@ void __interrupt(high_priority) HighISR()
     }
     
     if (PIR0bits.TMR0IF == 1){ //timer flag
-        LATDbits.LATD7 = !LATDbits.LATD7; //toggle LED
+        LATDbits.LATD7 = !LATDbits.LATD7; //toggle LED, could use other bits but using LED for easy viewing 
+        TMR0H=0b00001011;
+        TMR0L=0b11011011;
         PIR0bits.TMR0IF=0; //toggle off flag
     }
 }
