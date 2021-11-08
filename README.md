@@ -1,5 +1,30 @@
 # Individual project - Energy saving automatic outside light
 
+## Script and Function Description
+
+The main script has 5 main components that have been separated by a blank line.
+The initial portions are used as initialisers for the other function scripts being used, as well as variables that will be used in the functions.
+
+Thereafter, the next chunk of variables are to be set by ther user upon initilisation of the clock, which includes the current date, time and day of the week, as well as the brightness level at which for the light to turn off/on. 
+
+Within the while loops, we will go through each segment chronologically:
+
+- 1st Segment: Turns on the LED when the brightness level of the ambiant environment falls below the preset brightness level, and turns off when is above or the time is between 1am and 5am. 
+
+- 2nd Segment: Adjusts for the leap year if the year is devisable by 4. If so, it changes the days in February to 29, and back to 28 if not a leap year. 
+
+- 3rd Segment: The clock function to keep track of time. 
+Using the timer.c script, every passing second toggles the on-board LED RD7 (chosen for visualisation), where the main script detects the change in value and thereby adds 1 second to the clock. Upon reaching 60 seconds, the function adds 1 minute and resets the second clock back to 0. This carries on for hours, days, day of the week, months and year. Flags dawn_and_dusk and daylight_flag are also reset for each month here. Its function is explained below in the 4th and 5th Segment. 
+
+- 4th Segment: Adjusting for Daylight Savings
+This function checks if it is the last Sunday of the month, and then adds and subtracts an hour for the month of March and October respectively. After executing for the first time for the respective months, the daylight_flag is then set to 1 to ensure that it only is done once during the whole month, and is reset once the month is over in the 3rd Segment. 
+
+- 5th Segment: Sychronisation with the Sun Monthly 
+Triggered every 25th of the month, the function first checks if it is the first time it is being executed for the month. Thereafter, the time at which sunrise and sunset is recorded in the array dawn_dusk, ensuring that it is within the stipulated time ranges of 4am and 9am for mornings and 3pm and 10pm for evenings for increased accuracy. The timings are converted into minutes for easier calculation of the midtime, which is then compared to 1200 noon which is 720 in minutes. Thereafter, the clock is adjusted accordingly to either a surplace or deficit. 
+
+The while loop ends with some code to display the current time and date on the LCD screen for easy testing and debugging purposes, ensuring that the code is functional.
+
+
 ## Learning outcomes
 
 The principal learning objectives for this project are:
