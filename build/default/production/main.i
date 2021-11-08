@@ -24423,10 +24423,10 @@ void main(void)
 
 
     unsigned int set_brightness=50;
-    int minutes=12;
-    unsigned int hour=14;
-    unsigned int day_of_week = 5;
-    unsigned int daydate = 5;
+    int minutes=39;
+    unsigned int hour=0;
+    unsigned int day_of_week = 1;
+    unsigned int daydate = 8;
     unsigned int month = 11;
     unsigned int year = 2021;
 
@@ -24449,7 +24449,7 @@ void main(void)
         if (day_of_week > 7) {day_of_week=1;}
         if (month > 12) { year += 1; month = 1; daydate=1;}
         if (daydate > monthdays[month-1]) { month += 1; daydate = 1;
-            dawn_dusk[0]=0; dawn_dusk[1]=0;}
+            daylight_flag=0; dawn_dusk[0]=0; dawn_dusk[1]=0;}
         if (month>12) { year+=1; month=1; daydate=1;}
         LEDarray_disp_bin(hour);
 
@@ -24475,21 +24475,19 @@ void main(void)
         if (daydate == 25){
             if (dawn_dusk[0] == 0){
                 if (light_strength >= set_brightness){
-                    if (hour>5 && hour<9){
+                    if (hour>4 && hour<9){
                         dawn_dusk[0] = hour*60 + minutes;
                     }
                 }
             }
             if (dawn_dusk[1] == 0){
                 if (light_strength <= set_brightness){
-                    if (hour>5 && hour<9){
+                    if (hour>15 && hour<22){
                         dawn_dusk[1] = hour*60 + minutes;
                     }
                 }
             }
             unsigned int midtime = (dawn_dusk[0]+dawn_dusk[1])/2;
-            unsigned int midhour = midtime/60;
-            unsigned int midmin = midtime-(midhour*60);
             int diff = 720 - midtime;
             unsigned int curtime = (hour*60) + minutes;
             curtime += diff;

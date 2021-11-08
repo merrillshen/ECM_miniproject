@@ -41,10 +41,10 @@ void main(void)
     
     // Preset Variables Here 
     unsigned int set_brightness=50; // Set brightness level at which LED comes on 
-    int minutes=12;                  // Set current time in mins
-    unsigned int hour=14;            // Set current time in hours (24 hour clock)
-    unsigned int day_of_week = 5;   // Set Day of the week, 1 for Mon etc.)
-    unsigned int daydate = 5;      // Set Current Day date
+    int minutes=39;                  // Set current time in mins
+    unsigned int hour=0;            // Set current time in hours (24 hour clock)
+    unsigned int day_of_week = 1;   // Set Day of the week, 1 for Mon etc.)
+    unsigned int daydate = 8;      // Set Current Day date
     unsigned int month = 11;         // Set Current Month 
     unsigned int year = 2021;       // Set Current Year
  
@@ -67,7 +67,7 @@ void main(void)
         if (day_of_week > 7) {day_of_week=1;}
         if (month > 12) { year += 1; month = 1; daydate=1;}  
         if (daydate > monthdays[month-1]) { month += 1; daydate = 1; 
-            dawn_dusk[0]=0; dawn_dusk[1]=0;}  // Resets Sun Synchronisation flag for the month
+            daylight_flag=0; dawn_dusk[0]=0; dawn_dusk[1]=0;}  // Resets flags for the month
         if (month>12) { year+=1; month=1; daydate=1;}  
         LEDarray_disp_bin(hour);
         
@@ -93,21 +93,19 @@ void main(void)
         if (daydate == 25){ // checked once a month
             if (dawn_dusk[0] == 0){ // If not done yet
                 if (light_strength >= set_brightness){
-                    if (hour>5 && hour<9){
+                    if (hour>4 && hour<9){
                         dawn_dusk[0] = hour*60 + minutes;  
                     } 
                 } 
             }
             if (dawn_dusk[1] == 0){
                 if (light_strength <= set_brightness){
-                    if (hour>5 && hour<9){
+                    if (hour>15 && hour<22){
                         dawn_dusk[1] = hour*60 + minutes;
                     } 
                 } 
             }
             unsigned int midtime = (dawn_dusk[0]+dawn_dusk[1])/2;
-            unsigned int midhour = midtime/60;
-            unsigned int midmin = midtime-(midhour*60);
             int diff = 720 - midtime;  
             unsigned int curtime = (hour*60) + minutes;
             curtime += diff;

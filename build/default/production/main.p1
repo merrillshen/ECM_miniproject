@@ -2177,21 +2177,21 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _set_brightness `ui ~T0 @X0 1 a ]
 [e = _set_brightness -> -> 50 `i `ui ]
 "44
-[; ;main.c: 44:     int minutes=12;
+[; ;main.c: 44:     int minutes=39;
 [v _minutes `i ~T0 @X0 1 a ]
-[e = _minutes -> 12 `i ]
+[e = _minutes -> 39 `i ]
 "45
-[; ;main.c: 45:     unsigned int hour=14;
+[; ;main.c: 45:     unsigned int hour=0;
 [v _hour `ui ~T0 @X0 1 a ]
-[e = _hour -> -> 14 `i `ui ]
+[e = _hour -> -> 0 `i `ui ]
 "46
-[; ;main.c: 46:     unsigned int day_of_week = 5;
+[; ;main.c: 46:     unsigned int day_of_week = 1;
 [v _day_of_week `ui ~T0 @X0 1 a ]
-[e = _day_of_week -> -> 5 `i `ui ]
+[e = _day_of_week -> -> 1 `i `ui ]
 "47
-[; ;main.c: 47:     unsigned int daydate = 5;
+[; ;main.c: 47:     unsigned int daydate = 8;
 [v _daydate `ui ~T0 @X0 1 a ]
-[e = _daydate -> -> 5 `i `ui ]
+[e = _daydate -> -> 8 `i `ui ]
 "48
 [; ;main.c: 48:     unsigned int month = 11;
 [v _month `ui ~T0 @X0 1 a ]
@@ -2296,7 +2296,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e =+ _month -> -> 1 `i `ui ]
 [e = _daydate -> -> 1 `i `ui ]
 "70
-[; ;main.c: 70:             dawn_dusk[0]=0; dawn_dusk[1]=0;}
+[; ;main.c: 70:             daylight_flag=0; dawn_dusk[0]=0; dawn_dusk[1]=0;}
+[e = _daylight_flag -> -> 0 `i `ui ]
 [e = *U + &U _dawn_dusk * -> -> -> 0 `i `ui `ux -> -> # *U &U _dawn_dusk `ui `ux -> -> 0 `i `ui ]
 [e = *U + &U _dawn_dusk * -> -> -> 1 `i `ui `ux -> -> # *U &U _dawn_dusk `ui `ux -> -> 0 `i `ui ]
 }
@@ -2386,8 +2387,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $ ! >= _light_strength _set_brightness 2045  ]
 {
 "96
-[; ;main.c: 96:                     if (hour>5 && hour<9){
-[e $ ! && > _hour -> -> 5 `i `ui < _hour -> -> 9 `i `ui 2046  ]
+[; ;main.c: 96:                     if (hour>4 && hour<9){
+[e $ ! && > _hour -> -> 4 `i `ui < _hour -> -> 9 `i `ui 2046  ]
 {
 "97
 [; ;main.c: 97:                         dawn_dusk[0] = hour*60 + minutes;
@@ -2413,8 +2414,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $ ! <= _light_strength _set_brightness 2048  ]
 {
 "103
-[; ;main.c: 103:                     if (hour>5 && hour<9){
-[e $ ! && > _hour -> -> 5 `i `ui < _hour -> -> 9 `i `ui 2049  ]
+[; ;main.c: 103:                     if (hour>15 && hour<22){
+[e $ ! && > _hour -> -> 15 `i `ui < _hour -> -> 22 `i `ui 2049  ]
 {
 "104
 [; ;main.c: 104:                         dawn_dusk[1] = hour*60 + minutes;
@@ -2436,60 +2437,52 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _midtime `ui ~T0 @X0 1 a ]
 [e = _midtime / + *U + &U _dawn_dusk * -> -> -> 0 `i `ui `ux -> -> # *U &U _dawn_dusk `ui `ux *U + &U _dawn_dusk * -> -> -> 1 `i `ui `ux -> -> # *U &U _dawn_dusk `ui `ux -> -> 2 `i `ui ]
 "109
-[; ;main.c: 109:             unsigned int midhour = midtime/60;
-[v _midhour `ui ~T0 @X0 1 a ]
-[e = _midhour / _midtime -> -> 60 `i `ui ]
-"110
-[; ;main.c: 110:             unsigned int midmin = midtime-(midhour*60);
-[v _midmin `ui ~T0 @X0 1 a ]
-[e = _midmin - _midtime * _midhour -> -> 60 `i `ui ]
-"111
-[; ;main.c: 111:             int diff = 720 - midtime;
+[; ;main.c: 109:             int diff = 720 - midtime;
 [v _diff `i ~T0 @X0 1 a ]
 [e = _diff -> - -> -> 720 `i `ui _midtime `i ]
-"112
-[; ;main.c: 112:             unsigned int curtime = (hour*60) + minutes;
+"110
+[; ;main.c: 110:             unsigned int curtime = (hour*60) + minutes;
 [v _curtime `ui ~T0 @X0 1 a ]
 [e = _curtime + * _hour -> -> 60 `i `ui -> _minutes `ui ]
-"113
-[; ;main.c: 113:             curtime += diff;
+"111
+[; ;main.c: 111:             curtime += diff;
 [e =+ _curtime -> _diff `ui ]
-"114
-[; ;main.c: 114:             hour = curtime/60;
+"112
+[; ;main.c: 112:             hour = curtime/60;
 [e = _hour / _curtime -> -> 60 `i `ui ]
-"115
-[; ;main.c: 115:             minutes = curtime - (hour*60);
+"113
+[; ;main.c: 113:             minutes = curtime - (hour*60);
 [e = _minutes -> - _curtime * _hour -> -> 60 `i `ui `i ]
-"116
-[; ;main.c: 116:         }
+"114
+[; ;main.c: 114:         }
 }
 [e :U 2043 ]
-"119
-[; ;main.c: 119:         sprintf(buf,"%d:%d %d-%d-%d",hour,minutes,daydate,month,year);
+"117
+[; ;main.c: 117:         sprintf(buf,"%d:%d %d-%d-%d",hour,minutes,daydate,month,year);
 [e ( _sprintf (1 , , , , , (. , &U _buf :s 1C _hour _minutes _daydate _month _year ]
-"120
-[; ;main.c: 120:         LCD_sendbyte(0b00001100,0);
+"118
+[; ;main.c: 118:         LCD_sendbyte(0b00001100,0);
 [e ( _LCD_sendbyte (2 , -> -> 12 `i `uc -> -> 0 `i `uc ]
-"121
-[; ;main.c: 121:         LCD_sendstring(buf);
+"119
+[; ;main.c: 119:         LCD_sendstring(buf);
 [e ( _LCD_sendstring (1 &U _buf ]
-"122
-[; ;main.c: 122:         _delay((unsigned long)((500)*(64000000/4000.0)));
+"120
+[; ;main.c: 120:         _delay((unsigned long)((500)*(64000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
-"123
-[; ;main.c: 123:         LCD_sendbyte(0b00000001,0);
+"121
+[; ;main.c: 121:         LCD_sendbyte(0b00000001,0);
 [e ( _LCD_sendbyte (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
-"124
-[; ;main.c: 124:         _delay((unsigned long)((2)*(64000000/4000.0)));
+"122
+[; ;main.c: 122:         _delay((unsigned long)((2)*(64000000/4000.0)));
 [e ( __delay (1 -> * -> -> 2 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
-"125
-[; ;main.c: 125:     }
+"123
+[; ;main.c: 123:     }
 }
 [e :U 2022 ]
 [e $U 2023  ]
 [e :U 2024 ]
-"126
-[; ;main.c: 126: }
+"124
+[; ;main.c: 124: }
 [e :UE 2021 ]
 }
 [p f _sprintf 8388736 ]

@@ -11,52 +11,52 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+$C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 idloc IDLOC 5 200000 200000 10 1
 init CODE 0 82 82 4 1
 reset_vec CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 C 1
 $dist/default/production\mini-proj-merrillshen.X.production.o
-cinit CODE 0 241E 241E 46 1
+cinit CODE 0 23E8 23E8 46 1
 idloc IDLOC 5 200000 200000 10 1
-text0 CODE 0 E24 E24 5EA 1
-text1 CODE 0 237A 237A 52 1
-text2 CODE 0 2314 2314 66 1
-text3 CODE 0 140E 140E 38C 1
-text4 CODE 0 179A 179A 2E0 1
-text5 CODE 0 2176 2176 C2 1
-text6 CODE 0 2520 2520 36 1
-text7 CODE 0 2464 2464 44 1
-text8 CODE 0 1FE4 1FE4 CA 1
-text9 CODE 0 26AA 26AA 2 1
-text10 CODE 0 24A8 24A8 40 1
-text11 CODE 0 1DA6 1DA6 164 1
-text12 CODE 0 1C1E 1C1E 188 1
-text13 CODE 0 1A7A 1A7A 1A4 1
-text14 CODE 0 23CC 23CC 52 1
-text15 CODE 0 24E8 24E8 38 1
-text16 CODE 0 25EA 25EA 26 1
-text17 CODE 0 2238 2238 74 1
-text18 CODE 0 2636 2636 20 1
-text19 CODE 0 2610 2610 26 1
-text20 CODE 0 20AE 20AE C8 1
-text21 CODE 0 2556 2556 34 1
-text22 CODE 0 1F0A 1F0A DA 1
-text23 CODE 0 258A 258A 30 1
-text24 CODE 0 22AC 22AC 68 1
-text25 CODE 0 2688 2688 16 1
-text26 CODE 0 269E 269E C 1
-text27 CODE 0 2656 2656 1A 1
-text28 CODE 0 25BA 25BA 30 1
+text0 CODE 0 E24 E24 5B4 1
+text1 CODE 0 2344 2344 52 1
+text2 CODE 0 22DE 22DE 66 1
+text3 CODE 0 13D8 13D8 38C 1
+text4 CODE 0 1764 1764 2E0 1
+text5 CODE 0 2140 2140 C2 1
+text6 CODE 0 24EA 24EA 36 1
+text7 CODE 0 242E 242E 44 1
+text8 CODE 0 1FAE 1FAE CA 1
+text9 CODE 0 2674 2674 2 1
+text10 CODE 0 2472 2472 40 1
+text11 CODE 0 1D70 1D70 164 1
+text12 CODE 0 1BE8 1BE8 188 1
+text13 CODE 0 1A44 1A44 1A4 1
+text14 CODE 0 2396 2396 52 1
+text15 CODE 0 24B2 24B2 38 1
+text16 CODE 0 25B4 25B4 26 1
+text17 CODE 0 2202 2202 74 1
+text18 CODE 0 2600 2600 20 1
+text19 CODE 0 25DA 25DA 26 1
+text20 CODE 0 2078 2078 C8 1
+text21 CODE 0 2520 2520 34 1
+text22 CODE 0 1ED4 1ED4 DA 1
+text23 CODE 0 2554 2554 30 1
+text24 CODE 0 2276 2276 68 1
+text25 CODE 0 2652 2652 16 1
+text26 CODE 0 2668 2668 C 1
+text27 CODE 0 2620 2620 1A 1
+text28 CODE 0 2584 2584 30 1
 cstackCOMRAM COMRAM 1 1 1 58 1
-cstackBANK0 BANK0 1 60 60 7B 1
+cstackBANK0 BANK0 1 60 60 77 1
 temp COMRAM 1 5B 5B 1 1
-bssBANK0 BANK0 1 F3 F3 A 1
+bssBANK0 BANK0 1 EF EF A 1
 bssBANK1 BANK1 1 100 100 20 1
 intcode CODE 0 8 8 7A 1
 smallconst SMALLCONST 0 E00 E00 24 1
-idataBANK0 CODE 0 2670 2670 18 1
-dataBANK0 BANK0 1 DB DB 18 1
+idataBANK0 CODE 0 263A 263A 18 1
+dataBANK0 BANK0 1 D7 D7 18 1
 bssCOMRAM COMRAM 1 59 59 2 1
 config CONFIG 4 300000 300000 C 1
 # %UNUSED Section
@@ -65,10 +65,10 @@ config CONFIG 4 300000 300000 C 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM FD-FF 1
+RAM F9-FF 1
 RAM 120-DE9 1
 SFR DEF-FFF 1
-BANK0 FD-FF 1
+BANK0 F9-FF 1
 BANK1 120-1FF 1
 BANK2 200-2FF 1
 BANK3 300-3FF 1
@@ -80,22 +80,22 @@ BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 4-7 1
 CONST 86-DFF 1
-CONST 26AC-1FFFF 1
+CONST 2676-1FFFF 1
 STACK 120-DE9 1
-SMALLCONST 26AC-1FFFF 1
+SMALLCONST 2676-1FFFF 1
 CODE 4-7 1
 CODE 86-DFF 1
-CODE 26AC-1FFFF 1
+CODE 2676-1FFFF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
 BANK13 D00-DE9 1
 BIGRAM 5C-5F 1
-BIGRAM FD-FF 1
+BIGRAM F9-FF 1
 BIGRAM 120-DE9 1
 COMRAM 5C-5F 1
 EEDATA 310000-3103FF 1
-MEDIUMCONST 26AC-FFFF 1
+MEDIUMCONST 2676-FFFF 1
 MEDIUMCONST 10E00-1FFFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -111,7 +111,7 @@ MEDIUMCONST 10E00-1FFFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\mini-proj-merrillshen.X.production.o
-8 intcode CODE >15116:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
+8 intcode CODE >15080:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
 8 intcode CODE >22:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
 A intcode CODE >24:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
 1A intcode CODE >25:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
@@ -122,375 +122,375 @@ A intcode CODE >24:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interru
 76 intcode CODE >32:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
 7A intcode CODE >33:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
 7E intcode CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-25BA text28 CODE >23:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-25BA text28 CODE >27:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-25BC text28 CODE >29:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-25CA text28 CODE >31:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-25D0 text28 CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-25E0 text28 CODE >37:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-25E8 text28 CODE >38:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-2656 text27 CODE >9:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-2656 text27 CODE >11:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-2658 text27 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-265C text27 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-2660 text27 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-2664 text27 CODE >17:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-2668 text27 CODE >18:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-266A text27 CODE >19:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-266C text27 CODE >20:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-266E text27 CODE >21:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
-269E text26 CODE >8:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-269E text26 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-26A0 text26 CODE >13:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-26A4 text26 CODE >14:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-26A6 text26 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-26A8 text26 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
-2688 text25 CODE >9:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2688 text25 CODE >11:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-268A text25 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2692 text25 CODE >13:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2694 text25 CODE >14:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-269C text25 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22AC text24 CODE >20:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22AE text24 CODE >22:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22BC text24 CODE >23:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22BE text24 CODE >24:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22C2 text24 CODE >25:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22C2 text24 CODE >26:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22C4 text24 CODE >28:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22D2 text24 CODE >29:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22D4 text24 CODE >30:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22D8 text24 CODE >31:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22D8 text24 CODE >32:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22DA text24 CODE >34:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22E8 text24 CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22EA text24 CODE >36:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22EE text24 CODE >37:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22EE text24 CODE >38:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22F0 text24 CODE >40:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-22FE text24 CODE >41:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2300 text24 CODE >42:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2304 text24 CODE >43:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2304 text24 CODE >44:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2306 text24 CODE >50:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-230A text24 CODE >51:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2312 text24 CODE >52:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-258A text23 CODE >59:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-258C text23 CODE >61:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2596 text23 CODE >64:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-259C text23 CODE >65:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-25A4 text23 CODE >68:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-25AA text23 CODE >69:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-25B0 text23 CODE >70:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-25B8 text23 CODE >71:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F0A text22 CODE >76:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F0A text22 CODE >86:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F0C text22 CODE >87:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F0E text22 CODE >88:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F10 text22 CODE >89:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F12 text22 CODE >90:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F14 text22 CODE >91:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F16 text22 CODE >93:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F18 text22 CODE >94:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F1A text22 CODE >95:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F1C text22 CODE >96:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F1E text22 CODE >97:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F20 text22 CODE >98:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F22 text22 CODE >105:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F3A text22 CODE >106:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F40 text22 CODE >107:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F50 text22 CODE >108:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F5A text22 CODE >109:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F62 text22 CODE >110:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F6C text22 CODE >111:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F74 text22 CODE >112:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F7E text22 CODE >113:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F86 text22 CODE >114:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F90 text22 CODE >115:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1F9E text22 CODE >116:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1FA8 text22 CODE >117:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1FC0 text22 CODE >118:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1FCA text22 CODE >119:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-1FE2 text22 CODE >123:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2556 text21 CODE >141:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2556 text21 CODE >144:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-255A text21 CODE >145:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2570 text21 CODE >144:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-2588 text21 CODE >147:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
-20AE text20 CODE >45:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-20AE text20 CODE >50:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-20C4 text20 CODE >51:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-20DA text20 CODE >52:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-20F0 text20 CODE >53:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2106 text20 CODE >54:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-211C text20 CODE >55:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2132 text20 CODE >56:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2148 text20 CODE >57:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-215E text20 CODE >58:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2174 text20 CODE >59:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2610 text19 CODE >8:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2610 text19 CODE >13:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2612 text19 CODE >14:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2614 text19 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2616 text19 CODE >17:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2618 text19 CODE >19:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-261A text19 CODE >20:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-261C text19 CODE >22:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-261E text19 CODE >23:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2620 text19 CODE >25:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2622 text19 CODE >26:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2624 text19 CODE >28:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2626 text19 CODE >29:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2628 text19 CODE >31:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-262A text19 CODE >32:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-262C text19 CODE >34:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-262E text19 CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2630 text19 CODE >37:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2632 text19 CODE >38:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2634 text19 CODE >39:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
-2636 text18 CODE >7:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-2636 text18 CODE >9:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-263E text18 CODE >10:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-2640 text18 CODE >11:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-2648 text18 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-264A text18 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-264E text18 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-2652 text18 CODE >17:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-2654 text18 CODE >18:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
-2238 text17 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2238 text17 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2240 text17 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2252 text17 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2256 text17 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-225A text17 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2260 text17 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2262 text17 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2270 text17 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2276 text17 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-228C text17 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2294 text17 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-2296 text17 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-229C text17 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-22A2 text17 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-22A2 text17 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-22AA text17 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-25EA text16 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-25EA text16 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-25F6 text16 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-25FE text16 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-2606 text16 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-260E text16 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-24E8 text15 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
-24E8 text15 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
-251E text15 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
-23CC text14 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
-23CC text14 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
-241C text14 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
-1A7A text13 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1A7A text13 CODE >6:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1A8A text13 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B10 text13 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B18 text13 CODE >10:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B1C text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B38 text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B46 text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B4E text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B58 text13 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1B92 text13 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1BE6 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1C1C text13 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
-1C1E text12 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C1E text12 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C22 text12 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C30 text12 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C50 text12 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C54 text12 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C62 text12 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C82 text12 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C86 text12 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1C92 text12 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CB0 text12 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CB4 text12 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CB8 text12 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CCA text12 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CCC text12 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CDA text12 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1CEC text12 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D1A text12 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D3A text12 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D3C text12 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D4E text12 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D54 text12 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D64 text12 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1D84 text12 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1DA4 text12 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
-1DA6 text11 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1DA6 text11 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1DAA text11 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1DB8 text11 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1DD8 text11 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1DDC text11 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1DEA text11 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E0A text11 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E28 text11 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E2C text11 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E30 text11 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E42 text11 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E44 text11 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E52 text11 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1E80 text11 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1EA0 text11 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1EB2 text11 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1EB8 text11 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1EC8 text11 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1EE8 text11 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-1F08 text11 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
-24A8 text10 CODE >1:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
-24A8 text10 CODE >3:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
-24E6 text10 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
-26AA text9 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
-26AA text9 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
-1FE4 text8 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-1FE4 text8 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-2008 text8 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-200E text8 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-2012 text8 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-2066 text8 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-209A text8 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-20AC text8 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
-2464 text7 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-2464 text7 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-246C text7 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-2470 text7 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-2482 text7 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-2486 text7 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-24A6 text7 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
-2520 text6 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-2520 text6 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-2528 text6 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-252C text6 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-2530 text6 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-2548 text6 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-2554 text6 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
-2176 text5 CODE >72:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2176 text5 CODE >77:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2184 text5 CODE >78:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2198 text5 CODE >82:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-21BA text5 CODE >83:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-21C2 text5 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-21C6 text5 CODE >85:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-21DA text5 CODE >86:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-21DE text5 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-21FC text5 CODE >90:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-220A text5 CODE >91:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-221E text5 CODE >94:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2236 text5 CODE >95:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-179A text4 CODE >287:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-179A text4 CODE >293:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-17BA text4 CODE >294:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-17D0 text4 CODE >295:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-17E2 text4 CODE >296:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1802 text4 CODE >300:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1812 text4 CODE >301:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1814 text4 CODE >303:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1842 text4 CODE >304:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-184A text4 CODE >305:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-186A text4 CODE >306:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1870 text4 CODE >310:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1878 text4 CODE >311:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-187E text4 CODE >312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1882 text4 CODE >313:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1888 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18B4 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18B8 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18BC text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18C0 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18C4 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18C8 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18CC text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-18D0 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-190A text4 CODE >315:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1910 text4 CODE >316:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1916 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1936 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-193A text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-193E text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1942 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1946 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-194A text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-194E text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1952 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-197A text4 CODE >312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-19F4 text4 CODE >321:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1A14 text4 CODE >322:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1A1A text4 CODE >323:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1A50 text4 CODE >327:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1A78 text4 CODE >328:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-140E text3 CODE >692:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-140E text3 CODE >702:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1436 text3 CODE >703:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1444 text3 CODE >705:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1456 text3 CODE >706:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-145A text3 CODE >710:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1462 text3 CODE >711:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1466 text3 CODE >714:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1468 text3 CODE >715:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1476 text3 CODE >716:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-147A text3 CODE >718:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1480 text3 CODE >722:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1486 text3 CODE >726:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-148C text3 CODE >730:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1492 text3 CODE >734:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-149A text3 CODE >735:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2584 text28 CODE >23:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2584 text28 CODE >27:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2586 text28 CODE >29:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2594 text28 CODE >31:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+259A text28 CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+25AA text28 CODE >37:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+25B2 text28 CODE >38:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2620 text27 CODE >9:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2620 text27 CODE >11:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2622 text27 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2626 text27 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+262A text27 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+262E text27 CODE >17:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2632 text27 CODE >18:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2634 text27 CODE >19:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2636 text27 CODE >20:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2638 text27 CODE >21:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\ADC.c
+2668 text26 CODE >8:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
+2668 text26 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
+266A text26 CODE >13:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
+266E text26 CODE >14:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
+2670 text26 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
+2672 text26 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
+2652 text25 CODE >9:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2652 text25 CODE >11:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2654 text25 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+265C text25 CODE >13:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+265E text25 CODE >14:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2666 text25 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2276 text24 CODE >20:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2278 text24 CODE >22:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2286 text24 CODE >23:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2288 text24 CODE >24:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+228C text24 CODE >25:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+228C text24 CODE >26:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+228E text24 CODE >28:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+229C text24 CODE >29:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+229E text24 CODE >30:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22A2 text24 CODE >31:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22A2 text24 CODE >32:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22A4 text24 CODE >34:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22B2 text24 CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22B4 text24 CODE >36:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22B8 text24 CODE >37:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22B8 text24 CODE >38:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22BA text24 CODE >40:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22C8 text24 CODE >41:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22CA text24 CODE >42:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22CE text24 CODE >43:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22CE text24 CODE >44:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22D0 text24 CODE >50:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22D4 text24 CODE >51:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+22DC text24 CODE >52:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2554 text23 CODE >59:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2556 text23 CODE >61:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2560 text23 CODE >64:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2566 text23 CODE >65:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+256E text23 CODE >68:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2574 text23 CODE >69:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+257A text23 CODE >70:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2582 text23 CODE >71:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1ED4 text22 CODE >76:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1ED4 text22 CODE >86:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1ED6 text22 CODE >87:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1ED8 text22 CODE >88:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EDA text22 CODE >89:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EDC text22 CODE >90:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EDE text22 CODE >91:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EE0 text22 CODE >93:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EE2 text22 CODE >94:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EE4 text22 CODE >95:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EE6 text22 CODE >96:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EE8 text22 CODE >97:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EEA text22 CODE >98:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1EEC text22 CODE >105:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F04 text22 CODE >106:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F0A text22 CODE >107:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F1A text22 CODE >108:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F24 text22 CODE >109:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F2C text22 CODE >110:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F36 text22 CODE >111:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F3E text22 CODE >112:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F48 text22 CODE >113:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F50 text22 CODE >114:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F5A text22 CODE >115:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F68 text22 CODE >116:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F72 text22 CODE >117:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F8A text22 CODE >118:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1F94 text22 CODE >119:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+1FAC text22 CODE >123:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2520 text21 CODE >141:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2520 text21 CODE >144:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2524 text21 CODE >145:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+253A text21 CODE >144:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2552 text21 CODE >147:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LCD.c
+2078 text20 CODE >45:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+2078 text20 CODE >50:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+208E text20 CODE >51:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+20A4 text20 CODE >52:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+20BA text20 CODE >53:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+20D0 text20 CODE >54:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+20E6 text20 CODE >55:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+20FC text20 CODE >56:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+2112 text20 CODE >57:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+2128 text20 CODE >58:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+213E text20 CODE >59:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25DA text19 CODE >8:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25DA text19 CODE >13:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25DC text19 CODE >14:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25DE text19 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25E0 text19 CODE >17:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25E2 text19 CODE >19:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25E4 text19 CODE >20:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25E6 text19 CODE >22:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25E8 text19 CODE >23:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25EA text19 CODE >25:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25EC text19 CODE >26:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25EE text19 CODE >28:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25F0 text19 CODE >29:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25F2 text19 CODE >31:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25F4 text19 CODE >32:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25F6 text19 CODE >34:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25F8 text19 CODE >35:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25FA text19 CODE >37:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25FC text19 CODE >38:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+25FE text19 CODE >39:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\LEDarray.c
+2600 text18 CODE >7:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+2600 text18 CODE >9:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+2608 text18 CODE >10:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+260A text18 CODE >11:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+2612 text18 CODE >12:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+2614 text18 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+2618 text18 CODE >16:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+261C text18 CODE >17:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+261E text18 CODE >18:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\timers.c
+2202 text17 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2202 text17 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+220A text17 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+221C text17 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2220 text17 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2224 text17 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+222A text17 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+222C text17 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+223A text17 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2240 text17 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2256 text17 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+225E text17 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2260 text17 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2266 text17 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+226C text17 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+226C text17 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+2274 text17 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+25B4 text16 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+25B4 text16 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+25C0 text16 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+25C8 text16 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+25D0 text16 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+25D8 text16 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+24B2 text15 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+24B2 text15 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+24E8 text15 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+2396 text14 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+2396 text14 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+23E6 text14 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+1A44 text13 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1A44 text13 CODE >6:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1A54 text13 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1ADA text13 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1AE2 text13 CODE >10:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1AE6 text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1B02 text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1B10 text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1B18 text13 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1B22 text13 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1B5C text13 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1BB0 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1BE6 text13 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+1BE8 text12 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1BE8 text12 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1BEC text12 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1BFA text12 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C1A text12 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C1E text12 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C2C text12 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C4C text12 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C50 text12 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C5C text12 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C7A text12 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C7E text12 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C82 text12 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C94 text12 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1C96 text12 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1CA4 text12 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1CB6 text12 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1CE4 text12 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D04 text12 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D06 text12 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D18 text12 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D1E text12 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D2E text12 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D4E text12 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D6E text12 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1D70 text11 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1D70 text11 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1D74 text11 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1D82 text11 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DA2 text11 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DA6 text11 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DB4 text11 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DD4 text11 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DF2 text11 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DF6 text11 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1DFA text11 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E0C text11 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E0E text11 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E1C text11 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E4A text11 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E6A text11 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E7C text11 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E82 text11 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1E92 text11 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1EB2 text11 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1ED2 text11 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+2472 text10 CODE >1:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+2472 text10 CODE >3:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+24B0 text10 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+2674 text9 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+2674 text9 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+1FAE text8 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1FAE text8 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1FD2 text8 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1FD8 text8 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1FDC text8 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+2030 text8 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+2064 text8 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+2076 text8 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+242E text7 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+242E text7 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+2436 text7 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+243A text7 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+244C text7 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+2450 text7 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+2470 text7 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+24EA text6 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+24EA text6 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+24F2 text6 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+24F6 text6 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+24FA text6 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+2512 text6 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+251E text6 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+2140 text5 CODE >72:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2140 text5 CODE >77:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+214E text5 CODE >78:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2162 text5 CODE >82:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2184 text5 CODE >83:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+218C text5 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2190 text5 CODE >85:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+21A4 text5 CODE >86:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+21A8 text5 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+21C6 text5 CODE >90:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+21D4 text5 CODE >91:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+21E8 text5 CODE >94:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2200 text5 CODE >95:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1764 text4 CODE >287:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1764 text4 CODE >293:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1784 text4 CODE >294:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+179A text4 CODE >295:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+17AC text4 CODE >296:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+17CC text4 CODE >300:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+17DC text4 CODE >301:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+17DE text4 CODE >303:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+180C text4 CODE >304:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1814 text4 CODE >305:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1834 text4 CODE >306:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+183A text4 CODE >310:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1842 text4 CODE >311:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1848 text4 CODE >312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+184C text4 CODE >313:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1852 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+187E text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1882 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1886 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+188A text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+188E text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1892 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1896 text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+189A text4 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+18D4 text4 CODE >315:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+18DA text4 CODE >316:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+18E0 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1900 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1904 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1908 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+190C text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1910 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1914 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1918 text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+191C text4 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1944 text4 CODE >312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+19BE text4 CODE >321:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+19DE text4 CODE >322:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+19E4 text4 CODE >323:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1A1A text4 CODE >327:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1A42 text4 CODE >328:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+13D8 text3 CODE >692:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+13D8 text3 CODE >702:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1400 text3 CODE >703:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+140E text3 CODE >705:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1420 text3 CODE >706:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1424 text3 CODE >710:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+142C text3 CODE >711:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1430 text3 CODE >714:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1432 text3 CODE >715:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1440 text3 CODE >716:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1444 text3 CODE >718:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+144A text3 CODE >722:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1450 text3 CODE >726:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1456 text3 CODE >730:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+145C text3 CODE >734:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1464 text3 CODE >735:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1468 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1488 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1496 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 149E text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14BE text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14CC text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14D4 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14DC text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14E4 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14EC text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-14F6 text3 CODE >711:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1508 text3 CODE >738:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1516 text3 CODE >739:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1518 text3 CODE >745:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1540 text3 CODE >746:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-154E text3 CODE >747:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1576 text3 CODE >748:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1586 text3 CODE >749:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1588 text3 CODE >750:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1594 text3 CODE >753:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-15B0 text3 CODE >754:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-15B4 text3 CODE >755:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-15C2 text3 CODE >754:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-161E text3 CODE >847:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-166E text3 CODE >849:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-167C text3 CODE >850:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-16B6 text3 CODE >852:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-16EE text3 CODE >1372:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1716 text3 CODE >1373:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1724 text3 CODE >1374:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1738 text3 CODE >1375:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1744 text3 CODE >1379:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1752 text3 CODE >1380:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-175E text3 CODE >1384:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1786 text3 CODE >1385:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-1798 text3 CODE >1387:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2314 text2 CODE >1390:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2314 text2 CODE >1395:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-231C text2 CODE >1396:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2326 text2 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-232A text2 CODE >1398:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2350 text2 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2370 text2 CODE >1400:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-2378 text2 CODE >1404:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
-237A text1 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-237A text1 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-2384 text1 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-238C text1 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-2394 text1 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-239C text1 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-23B8 text1 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
-23CA text1 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+14A6 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+14AE text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+14B6 text3 CODE >736:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+14C0 text3 CODE >711:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+14D2 text3 CODE >738:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+14E0 text3 CODE >739:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+14E2 text3 CODE >745:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+150A text3 CODE >746:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1518 text3 CODE >747:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1540 text3 CODE >748:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1550 text3 CODE >749:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1552 text3 CODE >750:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+155E text3 CODE >753:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+157A text3 CODE >754:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+157E text3 CODE >755:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+158C text3 CODE >754:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+15E8 text3 CODE >847:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1638 text3 CODE >849:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1646 text3 CODE >850:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1680 text3 CODE >852:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+16B8 text3 CODE >1372:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+16E0 text3 CODE >1373:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+16EE text3 CODE >1374:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1702 text3 CODE >1375:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+170E text3 CODE >1379:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+171C text3 CODE >1380:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1728 text3 CODE >1384:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1750 text3 CODE >1385:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1762 text3 CODE >1387:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+22DE text2 CODE >1390:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+22DE text2 CODE >1395:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+22E6 text2 CODE >1396:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+22F0 text2 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+22F4 text2 CODE >1398:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+231A text2 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+233A text2 CODE >1400:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2342 text2 CODE >1404:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+2344 text1 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+2344 text1 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+234E text1 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+2356 text1 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+235E text1 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+2366 text1 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+2382 text1 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+2394 text1 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
 E24 text0 CODE >15:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 E24 text0 CODE >18:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 E26 text0 CODE >19:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
@@ -530,78 +530,76 @@ FF8 text0 CODE >67:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 1016 text0 CODE >68:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 1040 text0 CODE >69:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 108C text0 CODE >70:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-109C text0 CODE >71:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-10C6 text0 CODE >72:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-10D2 text0 CODE >75:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-10E8 text0 CODE >76:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1134 text0 CODE >77:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1148 text0 CODE >78:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-115A text0 CODE >79:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-115E text0 CODE >80:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1166 text0 CODE >83:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-117A text0 CODE >84:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-119E text0 CODE >85:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-11A4 text0 CODE >86:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-11B0 text0 CODE >89:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-11B0 text0 CODE >93:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-11C4 text0 CODE >94:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-11D6 text0 CODE >95:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-11EC text0 CODE >96:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1218 text0 CODE >97:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-123A text0 CODE >101:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-124C text0 CODE >102:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1262 text0 CODE >103:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-128E text0 CODE >104:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-12B0 text0 CODE >108:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-12CA text0 CODE >109:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-12E6 text0 CODE >110:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1308 text0 CODE >111:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1318 text0 CODE >112:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-133A text0 CODE >113:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1342 text0 CODE >114:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-135E text0 CODE >115:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-1380 text0 CODE >119:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-13BC text0 CODE >120:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-13C6 text0 CODE >121:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-13D2 text0 CODE >122:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-13EA text0 CODE >123:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-13F4 text0 CODE >124:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-241E cinit CODE >8187:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-241E cinit CODE >8189:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-241E cinit CODE >8192:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-241E cinit CODE >8227:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2420 cinit CODE >8228:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2422 cinit CODE >8229:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2424 cinit CODE >8230:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2426 cinit CODE >8231:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2428 cinit CODE >8232:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-242A cinit CODE >8233:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-242E cinit CODE >8234:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2432 cinit CODE >8235:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2432 cinit CODE >8236:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2434 cinit CODE >8237:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2438 cinit CODE >8238:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-243A cinit CODE >8239:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-243C cinit CODE >8240:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-243E cinit CODE >8244:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2442 cinit CODE >8245:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2444 cinit CODE >8246:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2444 cinit CODE >8247:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2446 cinit CODE >8248:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2448 cinit CODE >8249:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-244A cinit CODE >8252:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-244E cinit CODE >8253:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2450 cinit CODE >8254:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2450 cinit CODE >8255:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2452 cinit CODE >8256:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2454 cinit CODE >8257:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2456 cinit CODE >8260:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2458 cinit CODE >8261:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-245A cinit CODE >8267:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-245A cinit CODE >8269:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-245C cinit CODE >8270:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-245E cinit CODE >8271:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
-2460 cinit CODE >8272:C:\Users\merri\AppData\Local\Temp\xcAskjg.s
+10A4 text0 CODE >71:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+10CE text0 CODE >72:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+10DA text0 CODE >75:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+10F0 text0 CODE >76:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+113C text0 CODE >77:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1150 text0 CODE >78:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1162 text0 CODE >79:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1166 text0 CODE >80:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+116E text0 CODE >83:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1182 text0 CODE >84:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11A6 text0 CODE >85:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11AC text0 CODE >86:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11B8 text0 CODE >89:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11B8 text0 CODE >93:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11CC text0 CODE >94:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11DE text0 CODE >95:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+11F4 text0 CODE >96:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1220 text0 CODE >97:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1242 text0 CODE >101:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1254 text0 CODE >102:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+126A text0 CODE >103:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1296 text0 CODE >104:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+12B8 text0 CODE >108:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+12D2 text0 CODE >109:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+12E2 text0 CODE >110:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1304 text0 CODE >111:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+130C text0 CODE >112:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1328 text0 CODE >113:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+134A text0 CODE >117:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1386 text0 CODE >118:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+1390 text0 CODE >119:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+139C text0 CODE >120:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+13B4 text0 CODE >121:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+13BE text0 CODE >122:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
+23E8 cinit CODE >8187:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23E8 cinit CODE >8189:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23E8 cinit CODE >8192:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23E8 cinit CODE >8227:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23EA cinit CODE >8228:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23EC cinit CODE >8229:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23EE cinit CODE >8230:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23F0 cinit CODE >8231:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23F2 cinit CODE >8232:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23F4 cinit CODE >8233:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23F8 cinit CODE >8234:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23FC cinit CODE >8235:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23FC cinit CODE >8236:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23FE cinit CODE >8237:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2402 cinit CODE >8238:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2404 cinit CODE >8239:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2406 cinit CODE >8240:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2408 cinit CODE >8244:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+240C cinit CODE >8245:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+240E cinit CODE >8246:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+240E cinit CODE >8247:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2410 cinit CODE >8248:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2412 cinit CODE >8249:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2414 cinit CODE >8252:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2418 cinit CODE >8253:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+241A cinit CODE >8254:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+241A cinit CODE >8255:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+241C cinit CODE >8256:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+241E cinit CODE >8257:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2420 cinit CODE >8260:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2422 cinit CODE >8261:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2424 cinit CODE >8267:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2424 cinit CODE >8269:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2426 cinit CODE >8270:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+2428 cinit CODE >8271:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+242A cinit CODE >8272:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -616,13 +614,13 @@ FF8 text0 CODE >67:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 %SYMTAB
 __LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\mini-proj-merrillshen.X.production.o
-__Hspace_0 26AC 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
+__Hspace_0 2676 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hspace_1 120 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hspace_4 60000C 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\mini-proj-merrillshen.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_LCD_sendstring 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 LCD_sendbyte@LSB 5 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
@@ -631,19 +629,19 @@ LCD_sendbyte@MSB 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-mer
 ?_pad 12 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ?_vfprintf 60 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lsmallconst E00 0 SMALLCONST 0 smallconst dist/default/production\mini-proj-merrillshen.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-_atoi 1A7A 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+_atoi 1A44 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
 _dbuf 100 0 BANK1 1 bssBANK1 dist/default/production\mini-proj-merrillshen.X.production.o
-_dtoa 179A 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
+_dtoa 1764 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
 _main E24 0 CODE 0 text0 dist/default/production\mini-proj-merrillshen.X.production.o
-_nout F7 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-_prec FB 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+_nout F3 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+_prec F7 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 abs@a 14 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 btemp 5B 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
 pad@i 19 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 pad@p 16 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 pad@w 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-start 82 0 CODE 0 init C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+start 82 0 CODE 0 init C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 ___aomod@counter 12 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
@@ -655,74 +653,73 @@ __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\mini-proj-merrillshen.X
 pad@fp 12 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ?___wmul 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-_LCD_Init 1F0A 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
+_LCD_Init 1ED4 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hpowerup 82 0 CODE 0 powerup dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_vfpfcnvrt 179A 0 CODE 0 text3 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_vfpfcnvrt 1764 0 CODE 0 text3 dist/default/production\mini-proj-merrillshen.X.production.o
 ttemp5 5C 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
 ttemp6 5F 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
 ttemp7 63 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_ADC_init 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-_LEDarray_init 2610 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-__end_of_LCD_Init 1FE4 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
-intlevel0 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-intlevel1 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-intlevel2 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-intlevel3 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+_LEDarray_init 25DA 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+__end_of_LCD_Init 1FAE 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
+intlevel0 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+intlevel1 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+intlevel2 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+intlevel3 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-main@day_of_week C5 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@day_of_week C1 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\mini-proj-merrillshen.X.production.o
 wtemp8 5C 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
-_LCD_sendbyte 258A 0 CODE 0 text23 dist/default/production\mini-proj-merrillshen.X.production.o
+_LCD_sendbyte 2554 0 CODE 0 text23 dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_Timer0_init 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\mini-proj-merrillshen.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\mini-proj-merrillshen.X.production.o
-_vfpfcnvrt 140E 0 CODE 0 text3 dist/default/production\mini-proj-merrillshen.X.production.o
+_vfpfcnvrt 13D8 0 CODE 0 text3 dist/default/production\mini-proj-merrillshen.X.production.o
 dtoa@fp 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_LEDarray_disp_bin 20AE 0 CODE 0 text20 dist/default/production\mini-proj-merrillshen.X.production.o
+_LEDarray_disp_bin 2078 0 CODE 0 text20 dist/default/production\mini-proj-merrillshen.X.production.o
 ___wmul@multiplicand 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_ADC_getval 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _ADRESH F64 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_Interrupts_init 26AA 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+__end_of_Interrupts_init 2674 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 ?_ADC_getval 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of___wmul 2610 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of___wmul 25DA 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\mini-proj-merrillshen.X.production.o
 main@buf 84 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_HighISR 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-_atoi$1784 11 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_atoi$1785 15 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_atoi$1786 13 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_ADC_init 2656 0 CODE 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
+_atoi$1782 11 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
+_atoi$1783 15 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
+_atoi$1784 13 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
+_ADC_init 2620 0 CODE 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_LCD_sendbyte 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintcodelo 82 0 CODE 0 intcodelo dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of___aodiv 1DA6 0 CODE 0 text12 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of___aomod 1F0A 0 CODE 0 text11 dist/default/production\mini-proj-merrillshen.X.production.o
-main@midhour B7 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-main@midtime CB 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of___lwdiv 22AC 0 CODE 0 text17 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of___aodiv 1D70 0 CODE 0 text12 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of___aomod 1ED4 0 CODE 0 text11 dist/default/production\mini-proj-merrillshen.X.production.o
+main@midtime B5 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of___lwdiv 2276 0 CODE 0 text17 dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-main@minutes D5 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@minutes D1 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_isspace 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 ___aodiv@quotient 14 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ?_strlen 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_ADC_init 2670 0 CODE 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_ADC_init 263A 0 CODE 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
 ___aomod@dividend 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ___lwdiv@quotient 6 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_fputc 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_fputs 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_putch 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_LCD_sendbyte 25BA 0 CODE 0 text23 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_LCD_sendbyte 2584 0 CODE 0 text23 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lintcodelo 82 0 CODE 0 intcodelo dist/default/production\mini-proj-merrillshen.X.production.o
-main@leap_year BD 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@leap_year BB 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 ___aomod@divisor A 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_Interrupts_init 269E 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
-start_initialization 241E 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
+_Interrupts_init 2668 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
+start_initialization 23E8 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_LEDarray_init 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\mini-proj-merrillshen.X.production.o
 _TRISAbits F81 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
@@ -736,13 +733,13 @@ _TRISHbits F88 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.product
 ___rparam_used 1 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _ADREFbits F58 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-main@curtime C1 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+main@curtime BF 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 fputc@fp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 fputs@fp D 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ADC_getval@tmpval 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_LCD_E_TOG 269E 0 CODE 0 text25 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_LEDarray_init 2636 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_LCD_E_TOG 2668 0 CODE 0 text25 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_LEDarray_init 2600 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
 vfpfcnvrt@done 53 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -756,7 +753,7 @@ __Hbank8 0 0 ABS 0 bank8 dist/default/production\mini-proj-merrillshen.X.product
 __Hbank9 0 0 ABS 0 bank9 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hcinit 0 0 ABS 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
 __Hconst 0 0 CONST 0 const dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_strlen 2556 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_strlen 2520 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hidata 0 0 CODE 0 idata dist/default/production\mini-proj-merrillshen.X.production.o
 __Hidloc 200010 0 IDLOC 5 idloc dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_LCD_E_TOG 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
@@ -781,13 +778,13 @@ __Hbank12 0 0 ABS 0 bank12 dist/default/production\mini-proj-merrillshen.X.produ
 __Hbank13 0 0 ABS 0 bank13 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\mini-proj-merrillshen.X.production.o
-__smallconst E00 0 SMALLCONST 0 smallconst C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-main@F14546 DB 0 BANK0 1 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_sprintf 23CC 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
+__smallconst E00 0 SMALLCONST 0 smallconst C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+main@F14546 D7 0 BANK0 1 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_sprintf 2396 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
 __end_of_HighISR 82 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\mini-proj-merrillshen.X.production.o
 __Hconfig 30000C 0 CONFIG 4 config dist/default/production\mini-proj-merrillshen.X.production.o
-_LCD_sendnibble 22AC 0 CODE 0 text24 dist/default/production\mini-proj-merrillshen.X.production.o
+_LCD_sendnibble 2276 0 CODE 0 text24 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank2 0 0 ABS 0 bank2 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -798,14 +795,14 @@ __Lbank6 0 0 ABS 0 bank6 dist/default/production\mini-proj-merrillshen.X.product
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank8 0 0 ABS 0 bank8 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank9 0 0 ABS 0 bank9 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_isdigit 2520 0 CODE 0 text15 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_isdigit 24EA 0 CODE 0 text15 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lcinit 0 0 ABS 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
 __Lconst 0 0 CONST 0 const dist/default/production\mini-proj-merrillshen.X.production.o
 __Lidata 0 0 CODE 0 idata dist/default/production\mini-proj-merrillshen.X.production.o
 __Lidloc 0 0 IDLOC 5 idloc dist/default/production\mini-proj-merrillshen.X.production.o
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\mini-proj-merrillshen.X.production.o
 __Lparam 0 0 COMRAM 1 rparam dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_isspace 241E 0 CODE 0 text14 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_isspace 23E8 0 CODE 0 text14 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production\mini-proj-merrillshen.X.production.o
 __Lstack 0 0 STACK 2 stack dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext0 0 0 ABS 0 text0 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -819,7 +816,7 @@ __Ltext7 0 0 ABS 0 text7 dist/default/production\mini-proj-merrillshen.X.product
 __Ltext8 0 0 ABS 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext9 0 0 ABS 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\mini-proj-merrillshen.X.production.o
-_LCD_E_TOG 2688 0 CODE 0 text25 dist/default/production\mini-proj-merrillshen.X.production.o
+_LCD_E_TOG 2652 0 CODE 0 text25 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\mini-proj-merrillshen.X.production.o
 _INTCONbits FF2 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -837,46 +834,46 @@ __Lrbss 0 0 COMRAM 1 rbss dist/default/production\mini-proj-merrillshen.X.produc
 __Ltemp 5B 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext 0 0 ABS 0 text dist/default/production\mini-proj-merrillshen.X.production.o
 ___aodiv@counter 12 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-___wmul 25EA 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
+___wmul 25B4 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
 ___aomod@sign 13 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 int$flags 5B 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_Timer0_init 2636 0 CODE 0 text18 dist/default/production\mini-proj-merrillshen.X.production.o
-main@daydate D3 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+_Timer0_init 2600 0 CODE 0 text18 dist/default/production\mini-proj-merrillshen.X.production.o
+main@daydate CF 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 isspace@c 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintret 0 0 ABS 0 intret dist/default/production\mini-proj-merrillshen.X.production.o
-_LCD_sendstring 2556 0 CODE 0 text21 dist/default/production\mini-proj-merrillshen.X.production.o
+_LCD_sendstring 2520 0 CODE 0 text21 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\mini-proj-merrillshen.X.production.o
-__S0 26AC 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
+__S0 2676 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __S1 120 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __S2 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-_abs 24A8 0 CODE 0 text10 dist/default/production\mini-proj-merrillshen.X.production.o
-_pad 2176 0 CODE 0 text5 dist/default/production\mini-proj-merrillshen.X.production.o
+_abs 2472 0 CODE 0 text10 dist/default/production\mini-proj-merrillshen.X.production.o
+_pad 2140 0 CODE 0 text5 dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_Interrupts_init 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 LEDarray_disp_bin@number 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ___aodiv@sign 13 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\mini-proj-merrillshen.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\mini-proj-merrillshen.X.production.o
 sprintf@fmt 68 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-_dtoa$1749 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_vfpfcnvrt$1764 55 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_abs 24E8 0 CODE 0 text10 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_pad 2238 0 CODE 0 text5 dist/default/production\mini-proj-merrillshen.X.production.o
+_dtoa$1747 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
+_vfpfcnvrt$1762 55 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_abs 24B2 0 CODE 0 text10 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_pad 2202 0 CODE 0 text5 dist/default/production\mini-proj-merrillshen.X.production.o
 LCD_sendbyte@Byte 6 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 LCD_sendbyte@type 3 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_LCD_sendnibble 2314 0 CODE 0 text24 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_LCD_sendnibble 22DE 0 CODE 0 text24 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lintentry 0 0 ABS 0 intentry dist/default/production\mini-proj-merrillshen.X.production.o
 __Hramtop E00 0 RAM 0 ramtop dist/default/production\mini-proj-merrillshen.X.production.o
 strlen@a 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 strlen@s 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\mini-proj-merrillshen.X.production.o
-main@light_strength CD 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-__pdataBANK0 DB 0 BANK0 1 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@light_strength C9 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+__pdataBANK0 D7 0 BANK0 1 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __activetblptr 3 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-main@dawn_dusk CF 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@dawn_dusk CB 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of___wmul 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -904,30 +901,30 @@ vfpfcnvrt@fmt 43 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merri
 _PIE0bits E29 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _PIE2bits E2B 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 LCD_sendstring@string 7 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_LCD_sendstring 258A 0 CODE 0 text21 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_LCD_sendstring 2554 0 CODE 0 text21 dist/default/production\mini-proj-merrillshen.X.production.o
 pad@buf 14 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext10 24A8 0 CODE 0 text10 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext11 1DA6 0 CODE 0 text11 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext12 1C1E 0 CODE 0 text12 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext13 1A7A 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext14 23CC 0 CODE 0 text14 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext15 24E8 0 CODE 0 text15 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext16 25EA 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext17 2238 0 CODE 0 text17 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext18 2636 0 CODE 0 text18 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext19 2610 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext20 20AE 0 CODE 0 text20 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext21 2556 0 CODE 0 text21 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext22 1F0A 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext23 258A 0 CODE 0 text23 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext24 22AC 0 CODE 0 text24 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext25 2688 0 CODE 0 text25 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext26 269E 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext27 2656 0 CODE 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext28 25BA 0 CODE 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
-___aodiv 1C1E 0 CODE 0 text12 dist/default/production\mini-proj-merrillshen.X.production.o
-___aomod 1DA6 0 CODE 0 text11 dist/default/production\mini-proj-merrillshen.X.production.o
-___lwdiv 2238 0 CODE 0 text17 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext10 2472 0 CODE 0 text10 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext11 1D70 0 CODE 0 text11 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext12 1BE8 0 CODE 0 text12 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext13 1A44 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext14 2396 0 CODE 0 text14 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext15 24B2 0 CODE 0 text15 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext16 25B4 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext17 2202 0 CODE 0 text17 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext18 2600 0 CODE 0 text18 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext19 25DA 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext20 2078 0 CODE 0 text20 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext21 2520 0 CODE 0 text21 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext22 1ED4 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext23 2554 0 CODE 0 text23 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext24 2276 0 CODE 0 text24 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext25 2652 0 CODE 0 text25 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext26 2668 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext27 2620 0 CODE 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext28 2584 0 CODE 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
+___aodiv 1BE8 0 CODE 0 text12 dist/default/production\mini-proj-merrillshen.X.production.o
+___aomod 1D70 0 CODE 0 text11 dist/default/production\mini-proj-merrillshen.X.production.o
+___lwdiv 2202 0 CODE 0 text17 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank10 0 0 ABS 0 bank10 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank11 0 0 ABS 0 bank11 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lbank12 0 0 ABS 0 bank12 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -947,20 +944,20 @@ _LATEbits F7D 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.producti
 _LATFbits F7E 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _LATGbits F7F 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _LATHbits F80 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-main@diff B9 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-main@hour D9 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-main@secs BF 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-main@temp BB 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@diff B7 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@hour D5 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@secs BD 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@temp B9 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\mini-proj-merrillshen.X.production.o
-main@year C7 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@year C3 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 ___lwdiv@divisor 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-main@month D7 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-_strlen 2520 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
+main@month D3 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+_strlen 24EA 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\mini-proj-merrillshen.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+isa$std 1 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-stackhi DE9 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-stacklo 120 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAskjg.o
+stackhi DE9 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+stacklo 120 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
 __Lintcode 8 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\mini-proj-merrillshen.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\mini-proj-merrillshen.X.production.o
@@ -978,14 +975,14 @@ _PIR2bits E35 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.producti
 ___aodiv@divisor A 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ___aodiv@dividend 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-end_of_initialization 245A 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
+end_of_initialization 2424 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\mini-proj-merrillshen.X.production.o
 fputc@c 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 fputs@c F 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 fputs@i 10 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 fputs@s B 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_ADC_getval 25BA 0 CODE 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
+_ADC_getval 2584 0 CODE 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
 ?___aodiv 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ?___aomod 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ___lwdiv@dividend 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
@@ -998,20 +995,20 @@ __Lramtop E00 0 RAM 0 ramtop dist/default/production\mini-proj-merrillshen.X.pro
 __size_of_strlen 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_LEDarray_disp_bin 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-__pcinit 241E 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
+__pcinit 23E8 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
 vfpfcnvrt@ap 45 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 vfpfcnvrt@fp 41 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 vfpfcnvrt@ll 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __ptext0 E24 0 CODE 0 text0 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext1 237A 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext2 2314 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext3 140E 0 CODE 0 text3 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext4 179A 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext5 2176 0 CODE 0 text5 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext6 2520 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext7 2464 0 CODE 0 text7 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext8 1FE4 0 CODE 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
-__ptext9 26AA 0 CODE 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext1 2344 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext2 22DE 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext3 13D8 0 CODE 0 text3 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext4 1764 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext5 2140 0 CODE 0 text5 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext6 24EA 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext7 242E 0 CODE 0 text7 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext8 1FAE 0 CODE 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
+__ptext9 2674 0 CODE 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\mini-proj-merrillshen.X.production.o
 vfprintf@ap 64 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 vfprintf@fp 60 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -1035,47 +1032,46 @@ __Ltext25 0 0 ABS 0 text25 dist/default/production\mini-proj-merrillshen.X.produ
 __Ltext26 0 0 ABS 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext27 0 0 ABS 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext28 0 0 ABS 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
-__ramtop E00 0 RAM 0 ramtop C:\Users\merri\AppData\Local\Temp\xcAskjg.o
-_sprintf 237A 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
+__ramtop E00 0 RAM 0 ramtop C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+_sprintf 2344 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
 _HighISR 8 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
-main@midmin B5 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-_vfprintf 2314 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o
+_vfprintf 22DE 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lpowerup 82 0 CODE 0 powerup dist/default/production\mini-proj-merrillshen.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\mini-proj-merrillshen.X.production.o
 sprintf@ap 74 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-_isdigit 24E8 0 CODE 0 text15 dist/default/production\mini-proj-merrillshen.X.production.o
-_isspace 23CC 0 CODE 0 text14 dist/default/production\mini-proj-merrillshen.X.production.o
+_isdigit 24B2 0 CODE 0 text15 dist/default/production\mini-proj-merrillshen.X.production.o
+_isspace 2396 0 CODE 0 text14 dist/default/production\mini-proj-merrillshen.X.production.o
 __psmallconst E00 0 SMALLCONST 0 smallconst dist/default/production\mini-proj-merrillshen.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_vfprintf 237A 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_vfprintf 2344 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of__initialization 245A 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
-main@daylight_flag C3 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of__initialization 2424 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
+main@daylight_flag C5 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\mini-proj-merrillshen.X.production.o
-__pidataBANK0 2670 0 CODE 0 idataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+__pidataBANK0 263A 0 CODE 0 idataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\mini-proj-merrillshen.X.production.o
-_isspace$1802 8 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_ADC_getval 25EA 0 CODE 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_Timer0_init 2656 0 CODE 0 text18 dist/default/production\mini-proj-merrillshen.X.production.o
+_isspace$1800 8 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_ADC_getval 25B4 0 CODE 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_Timer0_init 2620 0 CODE 0 text18 dist/default/production\mini-proj-merrillshen.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-main@set_brightness C9 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+main@set_brightness C7 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 _T0CON0bits FD5 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _T0CON1bits FD6 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 sprintf@f 76 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 sprintf@s 66 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_atoi 1C1E 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_dtoa 1A7A 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_main 140E 0 CODE 0 text0 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_atoi 1BE8 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_dtoa 1A44 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_main 13D8 0 CODE 0 text0 dist/default/production\mini-proj-merrillshen.X.production.o
 __pintcode 8 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
 isdigit@c 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 _ADPCH F5F 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_fputc 20AE 0 CODE 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_fputs 24A8 0 CODE 0 text7 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_fputc 2078 0 CODE 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_fputs 2472 0 CODE 0 text7 dist/default/production\mini-proj-merrillshen.X.production.o
 ?_sprintf 66 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 _TMR0H FD4 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _TMR0L FD3 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_putch 26AC 0 CODE 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_putch 2676 0 CODE 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
 __HRAM 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbss 0 0 RAM 1 bss dist/default/production\mini-proj-merrillshen.X.production.o
 __Hram 0 0 ABS 0 ram dist/default/production\mini-proj-merrillshen.X.production.o
@@ -1086,10 +1082,10 @@ __Lram 0 0 ABS 0 ram dist/default/production\mini-proj-merrillshen.X.production.
 __Lsfr 0 0 ABS 0 sfr dist/default/production\mini-proj-merrillshen.X.production.o
 atoi@neg F 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 _flags 59 0 COMRAM 1 bssCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-_fputc 1FE4 0 CODE 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
-_fputs 2464 0 CODE 0 text7 dist/default/production\mini-proj-merrillshen.X.production.o
-_putch 26AA 0 CODE 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
-_width F9 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+_fputc 1FAE 0 CODE 0 text8 dist/default/production\mini-proj-merrillshen.X.production.o
+_fputs 242E 0 CODE 0 text7 dist/default/production\mini-proj-merrillshen.X.production.o
+_putch 2674 0 CODE 0 text9 dist/default/production\mini-proj-merrillshen.X.production.o
+_width F5 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 ?_isdigit 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ?_isspace 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_abs 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
@@ -1098,8 +1094,8 @@ main@monthdays 9D 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merril
 __HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 atoi@n 16 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 atoi@s 9 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-__initialization 241E 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
-__pbssBANK0 F3 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
+__initialization 23E8 0 CODE 0 cinit dist/default/production\mini-proj-merrillshen.X.production.o
+__pbssBANK0 EF 0 BANK0 1 bssBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\mini-proj-merrillshen.X.production.o
 ___wmul@product 6 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
@@ -1117,7 +1113,7 @@ _ANSELFbits EB4 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.produc
 __size_of_LCD_sendnibble 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintcode 82 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
-__end_of_LEDarray_disp_bin 2176 0 CODE 0 text20 dist/default/production\mini-proj-merrillshen.X.production.o
+__end_of_LEDarray_disp_bin 2140 0 CODE 0 text20 dist/default/production\mini-proj-merrillshen.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1142,9 +1138,9 @@ __end_of_LEDarray_disp_bin 2176 0 CODE 0 text20 dist/default/production\mini-pro
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text0 0 E24 E24 1888 1
+text0 0 E24 E24 1852 1
 cstackCOMRAM 1 1 1 5B 1
-cstackBANK0 1 60 60 9D 1
+cstackBANK0 1 60 60 99 1
 reset_vec 0 0 0 4 1
 bssBANK1 1 100 100 20 1
 intcode 0 8 8 7E 1
