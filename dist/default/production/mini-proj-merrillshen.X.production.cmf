@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+$C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 idloc IDLOC 5 200000 200000 10 1
 init CODE 0 82 82 4 1
 reset_vec CODE 0 0 0 4 1
@@ -111,7 +111,7 @@ MEDIUMCONST 10E00-1FFFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\mini-proj-merrillshen.X.production.o
-8 intcode CODE >15080:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+8 intcode CODE >15080:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
 8 intcode CODE >22:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
 A intcode CODE >24:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
 1A intcode CODE >25:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\interrupts.c
@@ -564,42 +564,42 @@ FF8 text0 CODE >67:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 139C text0 CODE >120:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 13B4 text0 CODE >121:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
 13BE text0 CODE >122:C:\Users\merri\MPLABXProjects\mini-proj-merrillshen.X\main.c
-23E8 cinit CODE >8187:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23E8 cinit CODE >8189:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23E8 cinit CODE >8192:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23E8 cinit CODE >8227:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23EA cinit CODE >8228:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23EC cinit CODE >8229:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23EE cinit CODE >8230:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23F0 cinit CODE >8231:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23F2 cinit CODE >8232:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23F4 cinit CODE >8233:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23F8 cinit CODE >8234:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23FC cinit CODE >8235:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23FC cinit CODE >8236:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-23FE cinit CODE >8237:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2402 cinit CODE >8238:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2404 cinit CODE >8239:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2406 cinit CODE >8240:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2408 cinit CODE >8244:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-240C cinit CODE >8245:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-240E cinit CODE >8246:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-240E cinit CODE >8247:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2410 cinit CODE >8248:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2412 cinit CODE >8249:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2414 cinit CODE >8252:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2418 cinit CODE >8253:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-241A cinit CODE >8254:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-241A cinit CODE >8255:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-241C cinit CODE >8256:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-241E cinit CODE >8257:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2420 cinit CODE >8260:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2422 cinit CODE >8261:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2424 cinit CODE >8267:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2424 cinit CODE >8269:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2426 cinit CODE >8270:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-2428 cinit CODE >8271:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
-242A cinit CODE >8272:C:\Users\merri\AppData\Local\Temp\xcAs54k.s
+23E8 cinit CODE >8187:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23E8 cinit CODE >8189:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23E8 cinit CODE >8192:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23E8 cinit CODE >8227:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23EA cinit CODE >8228:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23EC cinit CODE >8229:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23EE cinit CODE >8230:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23F0 cinit CODE >8231:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23F2 cinit CODE >8232:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23F4 cinit CODE >8233:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23F8 cinit CODE >8234:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23FC cinit CODE >8235:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23FC cinit CODE >8236:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+23FE cinit CODE >8237:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2402 cinit CODE >8238:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2404 cinit CODE >8239:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2406 cinit CODE >8240:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2408 cinit CODE >8244:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+240C cinit CODE >8245:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+240E cinit CODE >8246:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+240E cinit CODE >8247:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2410 cinit CODE >8248:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2412 cinit CODE >8249:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2414 cinit CODE >8252:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2418 cinit CODE >8253:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+241A cinit CODE >8254:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+241A cinit CODE >8255:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+241C cinit CODE >8256:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+241E cinit CODE >8257:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2420 cinit CODE >8260:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2422 cinit CODE >8261:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2424 cinit CODE >8267:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2424 cinit CODE >8269:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2426 cinit CODE >8270:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+2428 cinit CODE >8271:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
+242A cinit CODE >8272:C:\Users\merri\AppData\Local\Temp\xcAs8eo.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -620,7 +620,7 @@ __Hspace_2 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.productio
 __Hspace_4 60000C 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\mini-proj-merrillshen.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_LCD_sendstring 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 LCD_sendbyte@LSB 5 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
@@ -629,7 +629,7 @@ LCD_sendbyte@MSB 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-mer
 ?_pad 12 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ?_vfprintf 60 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lsmallconst E00 0 SMALLCONST 0 smallconst dist/default/production\mini-proj-merrillshen.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+___sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 _atoi 1A44 0 CODE 0 text13 dist/default/production\mini-proj-merrillshen.X.production.o
 _dbuf 100 0 BANK1 1 bssBANK1 dist/default/production\mini-proj-merrillshen.X.production.o
 _dtoa 1764 0 CODE 0 text4 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -641,7 +641,7 @@ btemp 5B 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.product
 pad@i 19 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 pad@p 16 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 pad@w 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
-start 82 0 CODE 0 init C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+start 82 0 CODE 0 init C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 ___aomod@counter 12 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
@@ -662,12 +662,12 @@ ttemp7 63 0 COMRAM 1 temp dist/default/production\mini-proj-merrillshen.X.produc
 __size_of_ADC_init 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _LEDarray_init 25DA 0 CODE 0 text19 dist/default/production\mini-proj-merrillshen.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+__accesstop 60 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 __end_of_LCD_Init 1FAE 0 CODE 0 text22 dist/default/production\mini-proj-merrillshen.X.production.o
-intlevel0 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
-intlevel1 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
-intlevel2 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
-intlevel3 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+intlevel0 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
+intlevel1 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
+intlevel2 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
+intlevel3 0 0 CODE 0 text C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 main@day_of_week C1 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\mini-proj-merrillshen.X.production.o
@@ -683,8 +683,8 @@ ___wmul@multiplicand 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj
 __size_of_ADC_getval 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 _ADRESH F64 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __end_of_Interrupts_init 2674 0 CODE 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs54k.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 ?_ADC_getval 2 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\mini-proj-merrillshen.X.production.o
 __end_of___wmul 25DA 0 CODE 0 text16 dist/default/production\mini-proj-merrillshen.X.production.o
@@ -734,7 +734,7 @@ ___rparam_used 1 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.produ
 _ADREFbits F58 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 main@curtime BF 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+isa$xinst 0 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 fputc@fp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 fputs@fp D 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
 ADC_getval@tmpval 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-merrillshen.X.production.o
@@ -778,7 +778,7 @@ __Hbank12 0 0 ABS 0 bank12 dist/default/production\mini-proj-merrillshen.X.produ
 __Hbank13 0 0 ABS 0 bank13 dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\mini-proj-merrillshen.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\mini-proj-merrillshen.X.production.o
-__smallconst E00 0 SMALLCONST 0 smallconst C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+__smallconst E00 0 SMALLCONST 0 smallconst C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 main@F14546 D7 0 BANK0 1 dataBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 __end_of_sprintf 2396 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
 __end_of_HighISR 82 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
@@ -954,10 +954,10 @@ ___lwdiv@divisor 4 0 COMRAM 1 cstackCOMRAM dist/default/production\mini-proj-mer
 main@month D3 0 BANK0 1 cstackBANK0 dist/default/production\mini-proj-merrillshen.X.production.o
 _strlen 24EA 0 CODE 0 text6 dist/default/production\mini-proj-merrillshen.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\mini-proj-merrillshen.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+isa$std 1 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\mini-proj-merrillshen.X.production.o
-stackhi DE9 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
-stacklo 120 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+stackhi DE9 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
+stacklo 120 0 ABS 0 - C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 __Lintcode 8 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\mini-proj-merrillshen.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\mini-proj-merrillshen.X.production.o
@@ -1032,7 +1032,7 @@ __Ltext25 0 0 ABS 0 text25 dist/default/production\mini-proj-merrillshen.X.produ
 __Ltext26 0 0 ABS 0 text26 dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext27 0 0 ABS 0 text27 dist/default/production\mini-proj-merrillshen.X.production.o
 __Ltext28 0 0 ABS 0 text28 dist/default/production\mini-proj-merrillshen.X.production.o
-__ramtop E00 0 RAM 0 ramtop C:\Users\merri\AppData\Local\Temp\xcAs54k.o
+__ramtop E00 0 RAM 0 ramtop C:\Users\merri\AppData\Local\Temp\xcAs8eo.o
 _sprintf 2344 0 CODE 0 text1 dist/default/production\mini-proj-merrillshen.X.production.o
 _HighISR 8 0 CODE 0 intcode dist/default/production\mini-proj-merrillshen.X.production.o
 _vfprintf 22DE 0 CODE 0 text2 dist/default/production\mini-proj-merrillshen.X.production.o

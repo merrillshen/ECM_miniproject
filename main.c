@@ -60,7 +60,7 @@ void main(void)
         else { monthdays[1] = 28;}
         
         // In-built Clock, Checks RD7 if a second has passed and resets flags accordingly
-        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;} 
+        if (LATDbits.LATD7 != temp) { secs += 1; temp = LATDbits.LATD7;} // For test mode, change secs to hours/days
         if (secs >= 60) { minutes += 1; secs = 0;}
         if (minutes >= 60) { hour += 1; minutes = 0;}
         if (hour >= 24) {hour = 0; daydate += 1; day_of_week+=1;}
