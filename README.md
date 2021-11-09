@@ -4,6 +4,7 @@
 
 The main script has 5 main components that have been separated by a blank line.
 The initial portions are used as initialisers for the other function scripts being used, as well as variables that will be used in the functions.
+Testing mode can be changed in line 63 of main.c (see comments)
 
 Thereafter, the next chunk of variables are to be set by ther user upon initilisation of the clock, which includes the current date, time and day of the week, as well as the brightness level at which for the light to turn off/on. 
 
@@ -25,6 +26,8 @@ Triggered every 25th of the month, the function first checks if it is the first 
 The while loop ends with some code to display the current time and date on the LCD screen for easy testing and debugging purposes, ensuring that the code is functional.
 
 
+
+# Original Project Description
 ## Learning outcomes
 
 The principal learning objectives for this project are:
